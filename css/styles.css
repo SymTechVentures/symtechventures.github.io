@@ -24,7 +24,7 @@
 }
 
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -538,5 +538,16 @@ a {
 
     .timeline-item {
         grid-template-columns: 1fr;
+    }
+}
+
+.division-hero {
+    padding-top: 4.4rem;
+    padding-bottom: 2.2rem;
+}
+
+@media (max-width: 640px) {
+    .division-hero {
+        padding-top: 2.8rem;
     }
 }

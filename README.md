@@ -1,5 +1,5 @@
 ﻿# SymTech Ventures Website
-
+ 
 This repository contains the official website for SymTech Ventures.
 
 ## Structure
