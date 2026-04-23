@@ -152,6 +152,13 @@ a {
     text-transform: uppercase;
 }
 
+.section-intro {
+    max-width: 72ch;
+    margin: 1rem auto 0;
+    color: var(--text-soft);
+    font-size: 1rem;
+}
+
 .hero h1 {
     margin: 0 0 1.2rem;
     color: var(--heading);
