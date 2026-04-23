@@ -72,17 +72,12 @@ a {
     min-width: 0;
 }
 
-.brand-mark {
-    display: grid;
-    place-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 14px;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
-    color: #08111f;
-    font-weight: 800;
-    font-size: 1.15rem;
-    box-shadow: 0 0 30px rgba(138, 180, 248, 0.3);
+.brand-logo {
+    display: block;
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .brand-text {
