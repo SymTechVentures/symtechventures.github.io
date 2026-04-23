@@ -78,6 +78,7 @@ a {
     height: 64px;
     object-fit: contain;
     flex-shrink: 0;
+    mix-blend-mode: screen;
 }
 
 .brand-text {
@@ -246,6 +247,8 @@ a {
     width: min(100%, 460px);
     height: auto;
     object-fit: contain;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 0 20px rgba(138, 180, 248, 0.18));
 }
 
 .hero-metrics {
