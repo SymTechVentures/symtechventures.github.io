@@ -1,0 +1,112 @@
+﻿/* AetherOS SymTech visible enhancement v3 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh !important;
+    background-color: #020617 !important;
+    background-image:
+        radial-gradient(circle at 20% 15%, rgba(56, 189, 248, 0.28), transparent 320px),
+        radial-gradient(circle at 85% 20%, rgba(37, 99, 235, 0.22), transparent 360px),
+        radial-gradient(circle at 50% 80%, rgba(14, 165, 233, 0.18), transparent 420px),
+        linear-gradient(180deg, #020617 0%, #07111f 45%, #020617 100%) !important;
+    color: #e5eefb !important;
+    position: relative !important;
+    overflow-x: hidden !important;
+}
+
+body::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+    background-image:
+        radial-gradient(circle, rgba(255,255,255,0.95) 0 1px, transparent 1.3px),
+        radial-gradient(circle, rgba(125,211,252,0.85) 0 1px, transparent 1.4px),
+        radial-gradient(circle, rgba(255,255,255,0.45) 0 1px, transparent 1.5px) !important;
+    background-size: 70px 70px, 115px 115px, 180px 180px !important;
+    background-position: 0 0, 35px 55px, 80px 110px !important;
+    opacity: 0.75 !important;
+    animation: aetherosStarDrift 70s linear infinite !important;
+}
+
+body::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+    background:
+        linear-gradient(to bottom, rgba(2,6,23,0.12), rgba(2,6,23,0.72)),
+        radial-gradient(circle at 50% 15%, rgba(56,189,248,0.13), transparent 520px) !important;
+}
+
+body > * {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+@keyframes aetherosStarDrift {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-140px, 190px, 0); }
+}
+
+.aetheros-test-banner {
+    position: fixed !important;
+    top: 12px !important;
+    right: 12px !important;
+    z-index: 999999 !important;
+    padding: 10px 14px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(56,189,248,0.75) !important;
+    background: rgba(2,6,23,0.86) !important;
+    color: #dff7ff !important;
+    box-shadow: 0 0 30px rgba(56,189,248,0.55) !important;
+    font: 600 13px/1.2 Arial, sans-serif !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+}
+
+section,
+article,
+.card,
+.division-card,
+.feature-card,
+.panel,
+[class*="card"],
+[class*="division"] {
+    background-color: rgba(8, 17, 34, 0.76) !important;
+    border-color: rgba(56, 189, 248, 0.28) !important;
+    box-shadow: 0 18px 60px rgba(0,0,0,0.35), 0 0 30px rgba(56,189,248,0.10) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+section:hover,
+article:hover,
+.card:hover,
+.division-card:hover,
+.feature-card:hover,
+.panel:hover,
+[class*="card"]:hover,
+[class*="division"]:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 24px 75px rgba(0,0,0,0.45), 0 0 44px rgba(56,189,248,0.25) !important;
+}
+
+img {
+    filter: drop-shadow(0 0 16px rgba(56,189,248,0.35)) !important;
+}
+
+.aetheros-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 650ms ease, transform 650ms ease;
+}
+
+.aetheros-reveal.aetheros-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

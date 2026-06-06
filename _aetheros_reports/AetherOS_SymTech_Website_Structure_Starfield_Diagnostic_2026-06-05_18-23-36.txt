@@ -1,0 +1,881 @@
+﻿AetherOS SymTech Ventures Website Diagnostic Report
+Generated: 2026-06-05_18-23-36
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+Mode: READ-ONLY diagnostic. No website files were modified.
+
+==================================================================================================
+1. Website File Inventory
+==================================================================================================
+Total files found, excluding .git and _aetheros_reports: 102
+Inventory CSV written to: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_aetheros_reports\AetherOS_SymTech_Website_Structure_Starfield_Diagnostic_Inventory_2026-06-05_18-23-36.csv
+
+Top-level structure:
+[DIR]  pages
+[DIR]  js
+[DIR]  images
+[DIR]  docs
+[DIR]  data
+[DIR]  css
+[DIR]  assets
+[DIR]  _backups
+[DIR]  _aetheros_logs
+[FILE] README_POLISH_PASS.md
+[FILE] README.md
+[FILE] README.html
+[FILE] index.html
+[FILE] favicon.ico
+[FILE] CNAME
+[FILE] .gitkeep
+[FILE] .gitignore
+
+==================================================================================================
+2. HTML / CSS / JS Overview
+==================================================================================================
+HTML files: 38
+  - _backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\index_backup_2026-06-05_13-44-57.html
+  - _backups\index_backup_2026-06-05_13-47-06.html
+  - _backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\index_backup_direct_injection_v4_2026-06-05_13-53-21.html
+  - _backups\index_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\index_backup_visible_v3_2026-06-05_13-50-33.html
+  - _backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symcore_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symcore_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symcraft_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symcraft_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - _backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html
+  - _backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html
+  - index.html
+  - pages\contact.html
+  - pages\divisions.html
+  - pages\founding-fellows.html
+  - pages\nsrp.html
+  - pages\symcore.html
+  - pages\symcraft.html
+  - pages\symcura.html
+  - pages\symlogic.html
+  - pages\symmetria.html
+  - pages\symspace.html
+  - README.html
+
+CSS files: 8
+  - _backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css
+  - _backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css
+  - _backups\styles_backup_starfield_v5_2026-06-05_17-21-21.css
+  - _backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css
+  - assets\css\style.css
+  - css\components.css
+  - css\layout.css
+  - css\styles.css
+
+JS files: 8
+  - _backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js
+  - _backups\main_backup_starfield_v5_2026-06-05_17-21-21.js
+  - _backups\main_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.js
+  - _backups\pass8_2026-06-05_18-14-07\main_before_pass8.js
+  - assets\js\main.js
+  - js\animations.js
+  - js\main.js
+  - js\navigation.js
+
+==================================================================================================
+3. Asset References Actually Used By HTML
+==================================================================================================
+[CSS] ../css/styles.css
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\css\styles.css
+  Exists: True
+[CSS] ../css/styles.css?v=2026-06-05_17-27-45
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\css\styles.css
+  Exists: True
+[CSS] ../css/styles.css?v=pass8_2026-06-05_18-14-07
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\css\styles.css
+  Exists: True
+[CSS] assets/css/style.css
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\assets\css\style.css
+  Exists: False
+[CSS] assets/css/style.css?v=2026-06-05_13-50-33
+  Referenced by: 2 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\assets\css\style.css
+  Exists: False
+[CSS] css/styles.css
+  Referenced by: 5 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\css\styles.css
+  Exists: False
+[CSS] css/styles.css?v=2026-06-05_17-27-45
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\css\styles.css
+  Exists: False
+[CSS] css/styles.css?v=pass8_2026-06-05_18-14-07
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\css\styles.css
+  Exists: True
+[IMG] ../images/divisions/symcore_energy_banner.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\divisions\symcore_energy_banner.png
+  Exists: True
+[IMG] ../images/divisions/symcraft_nano_banner.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\divisions\symcraft_nano_banner.png
+  Exists: True
+[IMG] ../images/divisions/symcura_health_banner.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\divisions\symcura_health_banner.png
+  Exists: True
+[IMG] ../images/divisions/symlogic_compute_banner.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\divisions\symlogic_compute_banner.png
+  Exists: True
+[IMG] ../images/divisions/symspace_dynamics_banner.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\divisions\symspace_dynamics_banner.png
+  Exists: True
+[IMG] ../images/heroes/founding_fellows_hero.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\heroes\founding_fellows_hero.png
+  Exists: True
+[IMG] ../images/heroes/nsrp_hero.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\heroes\nsrp_hero.png
+  Exists: True
+[IMG] ../images/heroes/symmetria_hero.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\heroes\symmetria_hero.png
+  Exists: True
+[IMG] ../images/icons/contact.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\contact.png
+  Exists: True
+[IMG] ../images/icons/founding_fellows.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\founding_fellows.png
+  Exists: True
+[IMG] ../images/icons/symcore_energy.png
+  Referenced by: 9 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\symcore_energy.png
+  Exists: True
+[IMG] ../images/icons/symcraft_nano.png
+  Referenced by: 9 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\symcraft_nano.png
+  Exists: True
+[IMG] ../images/icons/symcura_health.png
+  Referenced by: 9 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\symcura_health.png
+  Exists: True
+[IMG] ../images/icons/symlogic_compute.png
+  Referenced by: 9 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\symlogic_compute.png
+  Exists: True
+[IMG] ../images/icons/symspace_dynamics.png
+  Referenced by: 9 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\icons\symspace_dynamics.png
+  Exists: True
+[IMG] ../images/logos/nsrp.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\logos\nsrp.png
+  Exists: True
+[IMG] ../images/logos/symmetria.png
+  Referenced by: 3 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\logos\symmetria.png
+  Exists: True
+[IMG] ../images/logos/symtech.png
+  Referenced by: 30 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\images\logos\symtech.png
+  Exists: True
+[IMG] images/heroes/symtech_hero.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\heroes\symtech_hero.png
+  Exists: False
+[IMG] images/icons/founding_fellows.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\founding_fellows.png
+  Exists: False
+[IMG] images/icons/symcore_energy.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\symcore_energy.png
+  Exists: False
+[IMG] images/icons/symcraft_nano.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\symcraft_nano.png
+  Exists: False
+[IMG] images/icons/symcura_health.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\symcura_health.png
+  Exists: False
+[IMG] images/icons/symlogic_compute.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\symlogic_compute.png
+  Exists: False
+[IMG] images/icons/symspace_dynamics.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\icons\symspace_dynamics.png
+  Exists: False
+[IMG] images/logos/nsrp.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\logos\nsrp.png
+  Exists: False
+[IMG] images/logos/symmetria.png
+  Referenced by: 7 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\logos\symmetria.png
+  Exists: False
+[IMG] images/logos/symtech.png
+  Referenced by: 14 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\images\logos\symtech.png
+  Exists: False
+[JS] ../js/main.js
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\js\main.js
+  Exists: True
+[JS] ../js/main.js?v=2026-06-05_17-27-45
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\js\main.js
+  Exists: True
+[JS] ../js/main.js?v=pass8_2026-06-05_18-14-07
+  Referenced by: 10 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\js\main.js
+  Exists: True
+[JS] assets/js/main.js
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\assets\js\main.js
+  Exists: False
+[JS] assets/js/main.js?v=2026-06-05_13-50-33
+  Referenced by: 2 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\assets\js\main.js
+  Exists: False
+[JS] https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  Referenced by: 1 HTML file(s)
+  Resolved: EXTERNAL: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+[JS] js/main.js
+  Referenced by: 5 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\js\main.js
+  Exists: False
+[JS] js/main.js?v=2026-06-05_17-27-45
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\js\main.js
+  Exists: False
+[JS] js/main.js?v=pass8_2026-06-05_18-14-07
+  Referenced by: 1 HTML file(s)
+  Resolved: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\js\main.js
+  Exists: True
+
+==================================================================================================
+4. Potentially Unused CSS / JS Files
+==================================================================================================
+Possibly unused: _backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css
+Possibly unused: _backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css
+Possibly unused: _backups\styles_backup_starfield_v5_2026-06-05_17-21-21.css
+Possibly unused: _backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css
+Possibly unused: assets\css\style.css
+Possibly unused: css\components.css
+Possibly unused: css\layout.css
+Possibly unused: _backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js
+Possibly unused: _backups\main_backup_starfield_v5_2026-06-05_17-21-21.js
+Possibly unused: _backups\main_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.js
+Possibly unused: _backups\pass8_2026-06-05_18-14-07\main_before_pass8.js
+Possibly unused: assets\js\main.js
+Possibly unused: js\animations.js
+Possibly unused: js\navigation.js
+
+==================================================================================================
+5. Starfield Implementation Analysis
+==================================================================================================
+Starfield-related lines found: 716
+
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:52:         mix-blend-mode: screen !important;
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:53:         animation: aetherosDirectStars 55s linear infinite !important;
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:54:     }
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:67: 
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:68:     @keyframes aetherosDirectStars {
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:69:         from { transform: translate3d(0, 0, 0); }
+index.html:10: <body style="--hero:url('images/heroes/symtech_hero.png')">
+index.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:10: <body style="--hero:url('images/heroes/symtech_hero.png')">
+index.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+index.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+index.html:14: 
+index.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+index.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+index.html:14: 
+pages\contact.html:10: <body style="">
+pages\contact.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:10: <body style="">
+pages\contact.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\contact.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\contact.html:14: 
+pages\contact.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\contact.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\contact.html:14: 
+pages\divisions.html:10: <body style="">
+pages\divisions.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:10: <body style="">
+pages\divisions.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\divisions.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\divisions.html:14: 
+pages\divisions.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\divisions.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\divisions.html:14: 
+pages\founding-fellows.html:10: <body style="">
+pages\founding-fellows.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:10: <body style="">
+pages\founding-fellows.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\founding-fellows.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\founding-fellows.html:14: 
+pages\founding-fellows.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\founding-fellows.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\founding-fellows.html:14: 
+pages\nsrp.html:10: <body style="">
+pages\nsrp.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:10: <body style="">
+pages\nsrp.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\nsrp.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\nsrp.html:14: 
+pages\nsrp.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\nsrp.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\nsrp.html:14: 
+pages\symcore.html:10: <body style="">
+pages\symcore.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:10: <body style="">
+pages\symcore.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcore.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcore.html:14: 
+pages\symcore.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcore.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcore.html:14: 
+pages\symcraft.html:10: <body style="">
+pages\symcraft.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:10: <body style="">
+pages\symcraft.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcraft.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcraft.html:14: 
+pages\symcraft.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcraft.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcraft.html:14: 
+pages\symcura.html:10: <body style="">
+pages\symcura.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:10: <body style="">
+pages\symcura.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcura.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcura.html:14: 
+pages\symcura.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symcura.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symcura.html:14: 
+pages\symlogic.html:10: <body style="">
+pages\symlogic.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:10: <body style="">
+pages\symlogic.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symlogic.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symlogic.html:14: 
+pages\symlogic.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symlogic.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symlogic.html:14: 
+pages\symmetria.html:10: <body style="">
+pages\symmetria.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:10: <body style="">
+pages\symmetria.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symmetria.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symmetria.html:14: 
+pages\symmetria.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symmetria.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symmetria.html:14: 
+pages\symspace.html:10: <body style="">
+pages\symspace.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:10: <body style="">
+pages\symspace.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symspace.html:11: <!-- AETHEROS_STARFIELD_CANVAS_V7_START -->
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symspace.html:14: 
+pages\symspace.html:12: <canvas id="aetheros-starfield" aria-hidden="true"></canvas>
+pages\symspace.html:13: <!-- AETHEROS_STARFIELD_CANVAS_V7_END -->
+pages\symspace.html:14: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:9: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:10: /* AETHEROS_VISIBLE_CANVAS_STARFIELD_V7_START */
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:11: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:9: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:10: /* AETHEROS_VISIBLE_CANVAS_STARFIELD_V7_START */
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:11: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:25: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:26: #aetheros-starfield {
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:27:   position: fixed;
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:112: @media (prefers-reduced-motion: reduce) {
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:113:   #aetheros-starfield {
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:114:     opacity: .55;
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:123: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:124: /* AETHEROS_VISIBLE_CANVAS_STARFIELD_V7_END */
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:125: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:123: 
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:124: /* AETHEROS_VISIBLE_CANVAS_STARFIELD_V7_END */
+_backups\pass8_2026-06-05_18-14-07\styles_before_pass8.css:125: 
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:9: 
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:10: /* AETHEROS_STARFIELD_V5_START */
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:11: 
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:19: 
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:20: #aetheros-starfield {
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:21:   position: fixed;
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:120: 
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:121: /* AETHEROS_STARFIELD_V5_END */
+_backups\styles_backup_clean_starfield_v6_2026-06-05_17-27-45.css:122: 
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:9: 
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:10: /* AETHEROS_CLEAN_STARFIELD_V6_START */
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:11: 
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:23: 
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:24: #aetheros-starfield {
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:25:   position: fixed;
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:99: @media (prefers-reduced-motion: reduce) {
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:100:   #aetheros-starfield {
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:101:     display: none;
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:110: 
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:111: /* AETHEROS_CLEAN_STARFIELD_V6_END */
+_backups\styles_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.css:112: 
+css\styles.css:8: @media(max-width:900px){.navrow{height:auto;padding:14px 0;align-items:flex-start;flex-direction:column}.nav{justify-content:flex-start}.split,.cards-3,.cards-5{grid-template-columns:1fr}.hero{min-height:560px}.card{padding:22px}.step{grid-template-columns:1fr;text-align:center}.step strong{margin:auto}}
+css\styles.css:9: /* AETHEROS_STARFIELD_PASS8_START */
+css\styles.css:10: html {
+css\styles.css:23: 
+css\styles.css:24: #aetheros-starfield {
+css\styles.css:25:   position: fixed;
+css\styles.css:116: @media (prefers-reduced-motion: reduce) {
+css\styles.css:117:   #aetheros-starfield { opacity: .52; }
+css\styles.css:118:   .aetheros-reveal {
+css\styles.css:123: }
+css\styles.css:124: /* AETHEROS_STARFIELD_PASS8_END */
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:26: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:27:   function createStarfield() {
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:28:     if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:31: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:32:     var existing = document.getElementById("aetheros-starfield");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:33:     if (existing) {
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:36: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:37:     var canvas = document.createElement("canvas");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:38:     canvas.id = "aetheros-starfield";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:37:     var canvas = document.createElement("canvas");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:38:     canvas.id = "aetheros-starfield";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:39:     canvas.setAttribute("aria-hidden", "true");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:37:     var canvas = document.createElement("canvas");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:38:     canvas.id = "aetheros-starfield";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:39:     canvas.setAttribute("aria-hidden", "true");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:38:     canvas.id = "aetheros-starfield";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:39:     canvas.setAttribute("aria-hidden", "true");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:40:     document.body.insertBefore(canvas, document.body.firstChild);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:39:     canvas.setAttribute("aria-hidden", "true");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:40:     document.body.insertBefore(canvas, document.body.firstChild);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:41: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:41: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:42:     var ctx = canvas.getContext("2d");
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:43:     var dpr = Math.min(window.devicePixelRatio || 1, 2);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:45:     var height = 0;
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:46:     var stars = [];
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:47:     var mouse = { x: 0, y: 0 };
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:56:     function randomBetween(min, max) {
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:57:       return min + Math.random() * (max - min);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:58:     }
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:62:       height = window.innerHeight;
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:63:       canvas.width = Math.floor(width * dpr);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:64:       canvas.height = Math.floor(height * dpr);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:63:       canvas.width = Math.floor(width * dpr);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:64:       canvas.height = Math.floor(height * dpr);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:65:       canvas.style.width = width + "px";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:64:       canvas.height = Math.floor(height * dpr);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:65:       canvas.style.width = width + "px";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:66:       canvas.style.height = height + "px";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:65:       canvas.style.width = width + "px";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:66:       canvas.style.height = height + "px";
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:67:       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:69:       var targetCount = Math.max(120, Math.floor((width * height) / 5200));
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:70:       stars = [];
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:71: 
+_backups\main_backup_clean_starfield_v6_2026-06-05_17-27-45.js:72:       for (var i = 0; i < targetCount; i += 1) {
+
+Output truncated after 300 matched/context lines. See source files for full detail.
+
+AetherOS starfield quality heuristics:
+  YES - Canvas-based starfield present
+  YES - Animation loop present
+  YES - Randomised star placement present
+  YES - Radial gradient / halo usage detected
+  YES - Large circular arcs likely used
+  YES - Opacity/twinkle logic present
+  YES - Reduced-motion handling present
+  YES - CSS background fallback present
+  YES - Dedicated starfield layer fixed behind content
+
+Interpretation guide:
+- If radial gradients, shadowBlur, or large arcs are heavily used, the result often looks like glowing bubbles rather than stars.
+- A convincing starfield usually needs many tiny points, rare micro-flares, subtle opacity modulation, and depth layers.
+- Good sparkle is usually created by alpha/size variation over time, not by large halos.
+- The background should sit behind all content using a fixed layer and pointer-events:none.
+
+==================================================================================================
+6. Footer / Encoding Checks
+==================================================================================================
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/contact.png" alt="Contact icon"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">If the project interests you, the simplest next step is a thoughtful email explaining who you are, your background, and where you think you could contribute.</p></div></section><section><div class="wrap"><div class="panel"><h2>Email</h2><p><strong>geoffmthomas@gmail.com</strong></p><p>Please include your area of interest: SYMMETRIA, NSRP, SymCore Energy, SymCraft Nano, SymCura Health, SymSpace Dynamics, SymLogic Compute, or general collaboration.</p></div></div></section><section><div class="wrap"><div class="notice"><h2>Current status</h2><p>SymTech Ventures is at the introductory and research-formation stage. We are looking for serious conversations, not hype.</p></div></div></section></main>
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/contact.png" alt="Contact icon"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">If the project interests you, the simplest next step is a thoughtful email explaining who you are, your background, and where you think you could contribute.</p></div></section><section><div class="wrap"><div class="panel"><h2>Email</h2><p><strong>geoffmthomas@gmail.com</strong></p><p>Please include your area of interest: SYMMETRIA, NSRP, SymCore Energy, SymCraft Nano, SymCura Health, SymSpace Dynamics, SymLogic Compute, or general collaboration.</p></div></div></section><section><div class="wrap"><div class="notice"><h2>Current status</h2><p>SymTech Ventures is at the introductory and research-formation stage. We are looking for serious conversations, not hype.</p></div></div></section></main>
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/contact.png" alt="Contact icon"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">If the project interests you, the simplest next step is a thoughtful email explaining who you are, your background, and where you think you could contribute.</p></div></section><section><div class="wrap"><div class="panel"><h2>Email</h2><p><strong>geoffmthomas@gmail.com</strong></p><p>Please include your area of interest: SYMMETRIA, NSRP, SymCore Energy, SymCraft Nano, SymCura Health, SymSpace Dynamics, SymLogic Compute, or general collaboration.</p></div></div></section><section><div class="wrap"><div class="notice"><h2>Current status</h2><p>SymTech Ventures is at the introductory and research-formation stage. We are looking for serious conversations, not hype.</p></div></div></section></main>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/contact.png" alt="Contact icon"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">If the project interests you, the simplest next step is a thoughtful email explaining who you are, your background, and where you think you could contribute.</p></div></section><section><div class="wrap"><div class="panel"><h2>Email</h2><p><strong>geoffmthomas@gmail.com</strong></p><p>Please include your area of interest: SYMMETRIA, NSRP, SymCore Energy, SymCraft Nano, SymCura Health, SymSpace Dynamics, SymLogic Compute, or general collaboration.</p></div></div></section><section><div class="wrap"><div class="notice"><h2>Current status</h2><p>SymTech Ventures is at the introductory and research-formation stage. We are looking for serious conversations, not hype.</p></div></div></section></main>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research divisions</p><h1>Five divisions</h1><p class="lead">The divisions are organisational pathways for future exploration, not claims that these technologies already exist.</p></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy systems and theoretical field-energy concepts.</p><a href="symcore.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanoscale manufacturing, materials and fabrication concepts.</p><a href="symcraft.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative technology concepts.</p><a href="symcura.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Space systems, propulsion modelling and exploration roadmaps.</p><a href="symspace.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, modelling and computational research systems.</p><a href="symlogic.html">Open</a></article></div></div></section></main>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research divisions</p><h1>Five divisions</h1><p class="lead">The divisions are organisational pathways for future exploration, not claims that these technologies already exist.</p></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy systems and theoretical field-energy concepts.</p><a href="symcore.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanoscale manufacturing, materials and fabrication concepts.</p><a href="symcraft.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative technology concepts.</p><a href="symcura.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Space systems, propulsion modelling and exploration roadmaps.</p><a href="symspace.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, modelling and computational research systems.</p><a href="symlogic.html">Open</a></article></div></div></section></main>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research divisions</p><h1>Five divisions</h1><p class="lead">The divisions are organisational pathways for future exploration, not claims that these technologies already exist.</p></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy systems and theoretical field-energy concepts.</p><a href="symcore.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanoscale manufacturing, materials and fabrication concepts.</p><a href="symcraft.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative technology concepts.</p><a href="symcura.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Space systems, propulsion modelling and exploration roadmaps.</p><a href="symspace.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, modelling and computational research systems.</p><a href="symlogic.html">Open</a></article></div></div></section></main>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research divisions</p><h1>Five divisions</h1><p class="lead">The divisions are organisational pathways for future exploration, not claims that these technologies already exist.</p></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy systems and theoretical field-energy concepts.</p><a href="symcore.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanoscale manufacturing, materials and fabrication concepts.</p><a href="symcraft.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative technology concepts.</p><a href="symcura.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Space systems, propulsion modelling and exploration roadmaps.</p><a href="symspace.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, modelling and computational research systems.</p><a href="symlogic.html">Open</a></article></div></div></section></main>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/founding_fellows.png" alt="Founding Fellows icon"><p class="eyebrow">Early collaborators</p><h1>Founding Fellows</h1><p class="lead">SymTech Ventures may eventually seek five founding leads, one for each division, to help shape the project with discipline, credibility and long-term vision.</p></div></section><section><div class="wrap split"><div class="panel"><h2>Not ordinary job vacancies</h2><p>This is an early-stage concept, not a funded company with salaried roles. The Founding Fellows idea is about identifying thoughtful people who might help guide the direction of the project as it matures.</p><p>The ideal people would be technically curious, scientifically cautious and comfortable working with ambitious ideas without overstating them.</p></div><img class="feature-img" src="../images/heroes/founding_fellows_hero.png" alt="Founding Fellows visual"></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>Energy Lead</h3><p>Energy systems, infrastructure and safety thinking.</p></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>Nano Lead</h3><p>Materials, fabrication and semiconductor awareness.</p></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>Health Lead</h3><p>Biomedical caution, ethics and clinical realism.</p></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>Space Lead</h3><p>Aerospace systems, simulation and long-horizon planning.</p></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>Compute Lead</h3><p>AI, simulation, software and modelling infrastructure.</p></article></div></div></section></main>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/founding_fellows.png" alt="Founding Fellows icon"><p class="eyebrow">Early collaborators</p><h1>Founding Fellows</h1><p class="lead">SymTech Ventures may eventually seek five founding leads, one for each division, to help shape the project with discipline, credibility and long-term vision.</p></div></section><section><div class="wrap split"><div class="panel"><h2>Not ordinary job vacancies</h2><p>This is an early-stage concept, not a funded company with salaried roles. The Founding Fellows idea is about identifying thoughtful people who might help guide the direction of the project as it matures.</p><p>The ideal people would be technically curious, scientifically cautious and comfortable working with ambitious ideas without overstating them.</p></div><img class="feature-img" src="../images/heroes/founding_fellows_hero.png" alt="Founding Fellows visual"></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>Energy Lead</h3><p>Energy systems, infrastructure and safety thinking.</p></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>Nano Lead</h3><p>Materials, fabrication and semiconductor awareness.</p></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>Health Lead</h3><p>Biomedical caution, ethics and clinical realism.</p></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>Space Lead</h3><p>Aerospace systems, simulation and long-horizon planning.</p></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>Compute Lead</h3><p>AI, simulation, software and modelling infrastructure.</p></article></div></div></section></main>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/founding_fellows.png" alt="Founding Fellows icon"><p class="eyebrow">Early collaborators</p><h1>Founding Fellows</h1><p class="lead">SymTech Ventures may eventually seek five founding leads, one for each division, to help shape the project with discipline, credibility and long-term vision.</p></div></section><section><div class="wrap split"><div class="panel"><h2>Not ordinary job vacancies</h2><p>This is an early-stage concept, not a funded company with salaried roles. The Founding Fellows idea is about identifying thoughtful people who might help guide the direction of the project as it matures.</p><p>The ideal people would be technically curious, scientifically cautious and comfortable working with ambitious ideas without overstating them.</p></div><img class="feature-img" src="../images/heroes/founding_fellows_hero.png" alt="Founding Fellows visual"></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>Energy Lead</h3><p>Energy systems, infrastructure and safety thinking.</p></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>Nano Lead</h3><p>Materials, fabrication and semiconductor awareness.</p></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>Health Lead</h3><p>Biomedical caution, ethics and clinical realism.</p></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>Space Lead</h3><p>Aerospace systems, simulation and long-horizon planning.</p></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>Compute Lead</h3><p>AI, simulation, software and modelling infrastructure.</p></article></div></div></section></main>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/founding_fellows.png" alt="Founding Fellows icon"><p class="eyebrow">Early collaborators</p><h1>Founding Fellows</h1><p class="lead">SymTech Ventures may eventually seek five founding leads, one for each division, to help shape the project with discipline, credibility and long-term vision.</p></div></section><section><div class="wrap split"><div class="panel"><h2>Not ordinary job vacancies</h2><p>This is an early-stage concept, not a funded company with salaried roles. The Founding Fellows idea is about identifying thoughtful people who might help guide the direction of the project as it matures.</p><p>The ideal people would be technically curious, scientifically cautious and comfortable working with ambitious ideas without overstating them.</p></div><img class="feature-img" src="../images/heroes/founding_fellows_hero.png" alt="Founding Fellows visual"></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>Energy Lead</h3><p>Energy systems, infrastructure and safety thinking.</p></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>Nano Lead</h3><p>Materials, fabrication and semiconductor awareness.</p></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>Health Lead</h3><p>Biomedical caution, ethics and clinical realism.</p></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>Space Lead</h3><p>Aerospace systems, simulation and long-horizon planning.</p></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>Compute Lead</h3><p>AI, simulation, software and modelling infrastructure.</p></article></div></div></section></main>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\index_backup_2026-06-05_13-44-57.html:21: 
+_backups\index_backup_2026-06-05_13-44-57.html:22: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_2026-06-05_13-44-57.html:23: <script src="js/main.js"></script>
+_backups\index_backup_2026-06-05_13-47-06.html:21: 
+_backups\index_backup_2026-06-05_13-47-06.html:22: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_2026-06-05_13-47-06.html:23: <script src="js/main.js"></script>
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:22: 
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:23: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html:24: <script src="js/main.js"></script>
+_backups\index_backup_direct_injection_v4_2026-06-05_13-53-21.html:22: 
+_backups\index_backup_direct_injection_v4_2026-06-05_13-53-21.html:23: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_direct_injection_v4_2026-06-05_13-53-21.html:24: <script src="js/main.js"></script>
+_backups\index_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:21: 
+_backups\index_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:22: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:23: <script src="js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\index_backup_visible_v3_2026-06-05_13-50-33.html:22: 
+_backups\index_backup_visible_v3_2026-06-05_13-50-33.html:23: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\index_backup_visible_v3_2026-06-05_13-50-33.html:24: <script src="js/main.js"></script>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/nsrp.png" alt="NSRP logo"><p class="eyebrow">Research programme</p><h1>NSRP</h1><p class="lead">The Nilpotent Symmetry Research Programme is the proposed five-stage pathway for developing, testing and maturing the SYMMETRIA framework from nilpotent consistency through to computational validation.</p></div></section><section><div class="wrap split"><img class="feature-img" src="../images/heroes/nsrp_hero.png" alt="NSRP research visual"><div class="panel"><h2>Why it matters</h2><p>The NSRP is intended to move SYMMETRIA from a broad conceptual framework into a disciplined research pathway. It begins with mathematical credibility, develops theory carefully, validates behaviour computationally, and only then considers whether future application domains may be justified.</p></div></div></section><section><div class="wrap"><div class="section-head"><p class="eyebrow">Five stages</p><h2>A staged route from credibility to maturity.</h2></div><div class="timeline"><article class="step"><strong>1</strong><div><h3>NCP: Nilpotent Consistency Project</h3><p>Establish the mathematical credibility of the nilpotent framework by testing internal consistency, structural closure and computational verifiability.</p></div></article><article class="step"><strong>2</strong><div><h3>SEP: Symmetry Emergence Programme</h3><p>Explore whether symmetry, resonance and physics-like structures can emerge from extended nilpotent systems.</p></div></article><article class="step"><strong>3</strong><div><h3>SDEP: SYMMETRIA Deepening Programme</h3><p>Develop the mathematical and theoretical structure of SYMMETRIA in greater depth, including correspondence with known physics and observer-boundary questions.</p></div></article><article class="step"><strong>4</strong><div><h3>SVP: SYMMETRIA Validation Programme</h3><p>Use Python-based simulation and computational modelling to test stability, emergence patterns and correspondence with known physical behaviour.</p></div></article><article class="step"><strong>5</strong><div><h3>SMP: SYMMETRIA Maturation Programme</h3><p>Refine, stress-test and consolidate the framework into a more stable and internally coherent research body before any future application work is considered.</p></div></article></div></div></section><section><div class="wrap split"><div class="panel"><h2>Current status</h2><p>The immediate focus is the Nilpotent Consistency Project. No applied technology work is currently being undertaken. The priority is to build credibility first, develop theory carefully, validate computationally and apply cautiously.</p></div><div class="panel"><h2>Get involved</h2><p>SymTech Ventures is interested in hearing from physicists, mathematicians, engineers, software developers, AI researchers, science communicators and thoughtful collaborators who may wish to follow or contribute to the long-term development of the project.</p></div></div></section></main>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/nsrp.png" alt="NSRP logo"><p class="eyebrow">Research programme</p><h1>NSRP</h1><p class="lead">The Nilpotent Symmetry Research Programme is the proposed five-stage pathway for developing, testing and maturing the SYMMETRIA framework from nilpotent consistency through to computational validation.</p></div></section><section><div class="wrap split"><img class="feature-img" src="../images/heroes/nsrp_hero.png" alt="NSRP research visual"><div class="panel"><h2>Why it matters</h2><p>The NSRP is intended to move SYMMETRIA from a broad conceptual framework into a disciplined research pathway. It begins with mathematical credibility, develops theory carefully, validates behaviour computationally, and only then considers whether future application domains may be justified.</p></div></div></section><section><div class="wrap"><div class="section-head"><p class="eyebrow">Five stages</p><h2>A staged route from credibility to maturity.</h2></div><div class="timeline"><article class="step"><strong>1</strong><div><h3>NCP: Nilpotent Consistency Project</h3><p>Establish the mathematical credibility of the nilpotent framework by testing internal consistency, structural closure and computational verifiability.</p></div></article><article class="step"><strong>2</strong><div><h3>SEP: Symmetry Emergence Programme</h3><p>Explore whether symmetry, resonance and physics-like structures can emerge from extended nilpotent systems.</p></div></article><article class="step"><strong>3</strong><div><h3>SDEP: SYMMETRIA Deepening Programme</h3><p>Develop the mathematical and theoretical structure of SYMMETRIA in greater depth, including correspondence with known physics and observer-boundary questions.</p></div></article><article class="step"><strong>4</strong><div><h3>SVP: SYMMETRIA Validation Programme</h3><p>Use Python-based simulation and computational modelling to test stability, emergence patterns and correspondence with known physical behaviour.</p></div></article><article class="step"><strong>5</strong><div><h3>SMP: SYMMETRIA Maturation Programme</h3><p>Refine, stress-test and consolidate the framework into a more stable and internally coherent research body before any future application work is considered.</p></div></article></div></div></section><section><div class="wrap split"><div class="panel"><h2>Current status</h2><p>The immediate focus is the Nilpotent Consistency Project. No applied technology work is currently being undertaken. The priority is to build credibility first, develop theory carefully, validate computationally and apply cautiously.</p></div><div class="panel"><h2>Get involved</h2><p>SymTech Ventures is interested in hearing from physicists, mathematicians, engineers, software developers, AI researchers, science communicators and thoughtful collaborators who may wish to follow or contribute to the long-term development of the project.</p></div></div></section></main>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/nsrp.png" alt="NSRP logo"><p class="eyebrow">Research programme</p><h1>NSRP</h1><p class="lead">The Nilpotent Symmetry Research Programme is the proposed five-stage pathway for developing, testing and maturing the SYMMETRIA framework from nilpotent consistency through to computational validation.</p></div></section><section><div class="wrap split"><img class="feature-img" src="../images/heroes/nsrp_hero.png" alt="NSRP research visual"><div class="panel"><h2>Why it matters</h2><p>The NSRP is intended to move SYMMETRIA from a broad conceptual framework into a disciplined research pathway. It begins with mathematical credibility, develops theory carefully, validates behaviour computationally, and only then considers whether future application domains may be justified.</p></div></div></section><section><div class="wrap"><div class="section-head"><p class="eyebrow">Five stages</p><h2>A staged route from credibility to maturity.</h2></div><div class="timeline"><article class="step"><strong>1</strong><div><h3>NCP: Nilpotent Consistency Project</h3><p>Establish the mathematical credibility of the nilpotent framework by testing internal consistency, structural closure and computational verifiability.</p></div></article><article class="step"><strong>2</strong><div><h3>SEP: Symmetry Emergence Programme</h3><p>Explore whether symmetry, resonance and physics-like structures can emerge from extended nilpotent systems.</p></div></article><article class="step"><strong>3</strong><div><h3>SDEP: SYMMETRIA Deepening Programme</h3><p>Develop the mathematical and theoretical structure of SYMMETRIA in greater depth, including correspondence with known physics and observer-boundary questions.</p></div></article><article class="step"><strong>4</strong><div><h3>SVP: SYMMETRIA Validation Programme</h3><p>Use Python-based simulation and computational modelling to test stability, emergence patterns and correspondence with known physical behaviour.</p></div></article><article class="step"><strong>5</strong><div><h3>SMP: SYMMETRIA Maturation Programme</h3><p>Refine, stress-test and consolidate the framework into a more stable and internally coherent research body before any future application work is considered.</p></div></article></div></div></section><section><div class="wrap split"><div class="panel"><h2>Current status</h2><p>The immediate focus is the Nilpotent Consistency Project. No applied technology work is currently being undertaken. The priority is to build credibility first, develop theory carefully, validate computationally and apply cautiously.</p></div><div class="panel"><h2>Get involved</h2><p>SymTech Ventures is interested in hearing from physicists, mathematicians, engineers, software developers, AI researchers, science communicators and thoughtful collaborators who may wish to follow or contribute to the long-term development of the project.</p></div></div></section></main>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/nsrp.png" alt="NSRP logo"><p class="eyebrow">Research programme</p><h1>NSRP</h1><p class="lead">The Nilpotent Symmetry Research Programme is the proposed five-stage pathway for developing, testing and maturing the SYMMETRIA framework from nilpotent consistency through to computational validation.</p></div></section><section><div class="wrap split"><img class="feature-img" src="../images/heroes/nsrp_hero.png" alt="NSRP research visual"><div class="panel"><h2>Why it matters</h2><p>The NSRP is intended to move SYMMETRIA from a broad conceptual framework into a disciplined research pathway. It begins with mathematical credibility, develops theory carefully, validates behaviour computationally, and only then considers whether future application domains may be justified.</p></div></div></section><section><div class="wrap"><div class="section-head"><p class="eyebrow">Five stages</p><h2>A staged route from credibility to maturity.</h2></div><div class="timeline"><article class="step"><strong>1</strong><div><h3>NCP: Nilpotent Consistency Project</h3><p>Establish the mathematical credibility of the nilpotent framework by testing internal consistency, structural closure and computational verifiability.</p></div></article><article class="step"><strong>2</strong><div><h3>SEP: Symmetry Emergence Programme</h3><p>Explore whether symmetry, resonance and physics-like structures can emerge from extended nilpotent systems.</p></div></article><article class="step"><strong>3</strong><div><h3>SDEP: SYMMETRIA Deepening Programme</h3><p>Develop the mathematical and theoretical structure of SYMMETRIA in greater depth, including correspondence with known physics and observer-boundary questions.</p></div></article><article class="step"><strong>4</strong><div><h3>SVP: SYMMETRIA Validation Programme</h3><p>Use Python-based simulation and computational modelling to test stability, emergence patterns and correspondence with known physical behaviour.</p></div></article><article class="step"><strong>5</strong><div><h3>SMP: SYMMETRIA Maturation Programme</h3><p>Refine, stress-test and consolidate the framework into a more stable and internally coherent research body before any future application work is considered.</p></div></article></div></div></section><section><div class="wrap split"><div class="panel"><h2>Current status</h2><p>The immediate focus is the Nilpotent Consistency Project. No applied technology work is currently being undertaken. The priority is to build credibility first, develop theory carefully, validate computationally and apply cautiously.</p></div><div class="panel"><h2>Get involved</h2><p>SymTech Ventures is interested in hearing from physicists, mathematicians, engineers, software developers, AI researchers, science communicators and thoughtful collaborators who may wish to follow or contribute to the long-term development of the project.</p></div></div></section></main>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symcore_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcore_energy.png" alt="SymCore Energy icon"><p class="eyebrow">Division</p><h1>SymCore Energy</h1><p class="lead">SymCore Energy is the proposed energy division. Its role is to explore future energy concepts, distributed infrastructure ideas and speculative field-system models with strong safety and governance boundaries.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcore_energy_banner.png" alt="SymCore Energy banner"><div class="grid cards-3"><article class="card"><h3>Exploratory energy modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Early-stage energy research pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Infrastructure and safety thinking</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCore Energy is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcore_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcore_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symcore_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcore_energy.png" alt="SymCore Energy icon"><p class="eyebrow">Division</p><h1>SymCore Energy</h1><p class="lead">SymCore Energy is the proposed energy division. Its role is to explore future energy concepts, distributed infrastructure ideas and speculative field-system models with strong safety and governance boundaries.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcore_energy_banner.png" alt="SymCore Energy banner"><div class="grid cards-3"><article class="card"><h3>Exploratory energy modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Early-stage energy research pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Infrastructure and safety thinking</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCore Energy is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcore_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcore_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symcraft_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcraft_nano.png" alt="SymCraft Nano icon"><p class="eyebrow">Division</p><h1>SymCraft Nano</h1><p class="lead">SymCraft Nano focuses on nanotechnology, advanced materials and nanoscale manufacturing concepts as a possible future research direction.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcraft_nano_banner.png" alt="SymCraft Nano banner"><div class="grid cards-3"><article class="card"><h3>Materials and fabrication concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Semiconductor and quantum-device pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Atomic-scale precision as a long-term theme</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCraft Nano is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcraft_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcraft_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symcraft_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcraft_nano.png" alt="SymCraft Nano icon"><p class="eyebrow">Division</p><h1>SymCraft Nano</h1><p class="lead">SymCraft Nano focuses on nanotechnology, advanced materials and nanoscale manufacturing concepts as a possible future research direction.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcraft_nano_banner.png" alt="SymCraft Nano banner"><div class="grid cards-3"><article class="card"><h3>Materials and fabrication concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Semiconductor and quantum-device pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Atomic-scale precision as a long-term theme</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCraft Nano is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcraft_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcraft_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcura_health.png" alt="SymCura Health icon"><p class="eyebrow">Division</p><h1>SymCura Health</h1><p class="lead">SymCura Health explores future healthcare possibilities, diagnostics, regenerative systems and bioengineering concepts, while treating medical claims with particular caution.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcura_health_banner.png" alt="SymCura Health banner"><div class="grid cards-3"><article class="card"><h3>Clinical evidence comes first</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Diagnostics and regenerative concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Ethics, safety and patient protection</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCura Health is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcura_health.png" alt="SymCura Health icon"><p class="eyebrow">Division</p><h1>SymCura Health</h1><p class="lead">SymCura Health explores future healthcare possibilities, diagnostics, regenerative systems and bioengineering concepts, while treating medical claims with particular caution.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcura_health_banner.png" alt="SymCura Health banner"><div class="grid cards-3"><article class="card"><h3>Clinical evidence comes first</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Diagnostics and regenerative concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Ethics, safety and patient protection</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCura Health is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcura_health.png" alt="SymCura Health icon"><p class="eyebrow">Division</p><h1>SymCura Health</h1><p class="lead">SymCura Health explores future healthcare possibilities, diagnostics, regenerative systems and bioengineering concepts, while treating medical claims with particular caution.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcura_health_banner.png" alt="SymCura Health banner"><div class="grid cards-3"><article class="card"><h3>Clinical evidence comes first</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Diagnostics and regenerative concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Ethics, safety and patient protection</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCura Health is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcura_health.png" alt="SymCura Health icon"><p class="eyebrow">Division</p><h1>SymCura Health</h1><p class="lead">SymCura Health explores future healthcare possibilities, diagnostics, regenerative systems and bioengineering concepts, while treating medical claims with particular caution.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcura_health_banner.png" alt="SymCura Health banner"><div class="grid cards-3"><article class="card"><h3>Clinical evidence comes first</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Diagnostics and regenerative concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Ethics, safety and patient protection</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCura Health is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symlogic_compute.png" alt="SymLogic Compute icon"><p class="eyebrow">Division</p><h1>SymLogic Compute</h1><p class="lead">SymLogic Compute is the computational backbone of the proposed ecosystem, focused on AI-assisted research, simulation, optimisation and reproducible modelling.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symlogic_compute_banner.png" alt="SymLogic Compute banner"><div class="grid cards-3"><article class="card"><h3>AI-assisted theoretical modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Simulation and digital research infrastructure</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Support layer for all other divisions</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymLogic Compute is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symlogic_compute.png" alt="SymLogic Compute icon"><p class="eyebrow">Division</p><h1>SymLogic Compute</h1><p class="lead">SymLogic Compute is the computational backbone of the proposed ecosystem, focused on AI-assisted research, simulation, optimisation and reproducible modelling.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symlogic_compute_banner.png" alt="SymLogic Compute banner"><div class="grid cards-3"><article class="card"><h3>AI-assisted theoretical modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Simulation and digital research infrastructure</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Support layer for all other divisions</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymLogic Compute is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symlogic_compute.png" alt="SymLogic Compute icon"><p class="eyebrow">Division</p><h1>SymLogic Compute</h1><p class="lead">SymLogic Compute is the computational backbone of the proposed ecosystem, focused on AI-assisted research, simulation, optimisation and reproducible modelling.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symlogic_compute_banner.png" alt="SymLogic Compute banner"><div class="grid cards-3"><article class="card"><h3>AI-assisted theoretical modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Simulation and digital research infrastructure</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Support layer for all other divisions</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymLogic Compute is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symlogic_compute.png" alt="SymLogic Compute icon"><p class="eyebrow">Division</p><h1>SymLogic Compute</h1><p class="lead">SymLogic Compute is the computational backbone of the proposed ecosystem, focused on AI-assisted research, simulation, optimisation and reproducible modelling.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symlogic_compute_banner.png" alt="SymLogic Compute banner"><div class="grid cards-3"><article class="card"><h3>AI-assisted theoretical modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Simulation and digital research infrastructure</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Support layer for all other divisions</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymLogic Compute is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/symmetria.png" alt="SYMMETRIA logo"><p class="eyebrow">Theoretical foundation</p><h1>SYMMETRIA</h1><p class="lead">A developing research framework exploring symmetry, nilpotent algebra, layered emergence and the possibility of deeper structure beneath known physical systems.</p></div></section><section><div class="wrap split"><div class="panel"><h2>What it is</h2><p>SYMMETRIA is not presented as a completed or validated theory. It is a structured research direction: a way of organising mathematical ideas, physical questions, computational models and long-term technology speculation around the central theme of symmetry.</p><p>The aim is to move from broad ideas toward clearer definitions, internal consistency tests, computational modelling and external critique.</p></div><img class="feature-img" src="../images/heroes/symmetria_hero.png" alt="Abstract SYMMETRIA geometry"></div></section><section><div class="wrap"><div class="grid cards-3"><article class="card"><h3>Symmetry-first thinking</h3><p>Investigating whether symmetry can be treated as a deeper organising principle rather than only a property of existing laws.</p></article><article class="card"><h3>Nilpotent structures</h3><p>Exploring self-balancing algebraic forms and their potential relevance to emergence, cancellation and conservation.</p></article><article class="card"><h3>Computational pathway</h3><p>Prioritising modelling, simulation, reproducibility and criticism before any strong claims are made.</p></article></div></div></section></main>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/symmetria.png" alt="SYMMETRIA logo"><p class="eyebrow">Theoretical foundation</p><h1>SYMMETRIA</h1><p class="lead">A developing research framework exploring symmetry, nilpotent algebra, layered emergence and the possibility of deeper structure beneath known physical systems.</p></div></section><section><div class="wrap split"><div class="panel"><h2>What it is</h2><p>SYMMETRIA is not presented as a completed or validated theory. It is a structured research direction: a way of organising mathematical ideas, physical questions, computational models and long-term technology speculation around the central theme of symmetry.</p><p>The aim is to move from broad ideas toward clearer definitions, internal consistency tests, computational modelling and external critique.</p></div><img class="feature-img" src="../images/heroes/symmetria_hero.png" alt="Abstract SYMMETRIA geometry"></div></section><section><div class="wrap"><div class="grid cards-3"><article class="card"><h3>Symmetry-first thinking</h3><p>Investigating whether symmetry can be treated as a deeper organising principle rather than only a property of existing laws.</p></article><article class="card"><h3>Nilpotent structures</h3><p>Exploring self-balancing algebraic forms and their potential relevance to emergence, cancellation and conservation.</p></article><article class="card"><h3>Computational pathway</h3><p>Prioritising modelling, simulation, reproducibility and criticism before any strong claims are made.</p></article></div></div></section></main>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/symmetria.png" alt="SYMMETRIA logo"><p class="eyebrow">Theoretical foundation</p><h1>SYMMETRIA</h1><p class="lead">A developing research framework exploring symmetry, nilpotent algebra, layered emergence and the possibility of deeper structure beneath known physical systems.</p></div></section><section><div class="wrap split"><div class="panel"><h2>What it is</h2><p>SYMMETRIA is not presented as a completed or validated theory. It is a structured research direction: a way of organising mathematical ideas, physical questions, computational models and long-term technology speculation around the central theme of symmetry.</p><p>The aim is to move from broad ideas toward clearer definitions, internal consistency tests, computational modelling and external critique.</p></div><img class="feature-img" src="../images/heroes/symmetria_hero.png" alt="Abstract SYMMETRIA geometry"></div></section><section><div class="wrap"><div class="grid cards-3"><article class="card"><h3>Symmetry-first thinking</h3><p>Investigating whether symmetry can be treated as a deeper organising principle rather than only a property of existing laws.</p></article><article class="card"><h3>Nilpotent structures</h3><p>Exploring self-balancing algebraic forms and their potential relevance to emergence, cancellation and conservation.</p></article><article class="card"><h3>Computational pathway</h3><p>Prioritising modelling, simulation, reproducibility and criticism before any strong claims are made.</p></article></div></div></section></main>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/symmetria.png" alt="SYMMETRIA logo"><p class="eyebrow">Theoretical foundation</p><h1>SYMMETRIA</h1><p class="lead">A developing research framework exploring symmetry, nilpotent algebra, layered emergence and the possibility of deeper structure beneath known physical systems.</p></div></section><section><div class="wrap split"><div class="panel"><h2>What it is</h2><p>SYMMETRIA is not presented as a completed or validated theory. It is a structured research direction: a way of organising mathematical ideas, physical questions, computational models and long-term technology speculation around the central theme of symmetry.</p><p>The aim is to move from broad ideas toward clearer definitions, internal consistency tests, computational modelling and external critique.</p></div><img class="feature-img" src="../images/heroes/symmetria_hero.png" alt="Abstract SYMMETRIA geometry"></div></section><section><div class="wrap"><div class="grid cards-3"><article class="card"><h3>Symmetry-first thinking</h3><p>Investigating whether symmetry can be treated as a deeper organising principle rather than only a property of existing laws.</p></article><article class="card"><h3>Nilpotent structures</h3><p>Exploring self-balancing algebraic forms and their potential relevance to emergence, cancellation and conservation.</p></article><article class="card"><h3>Computational pathway</h3><p>Prioritising modelling, simulation, reproducibility and criticism before any strong claims are made.</p></article></div></div></section></main>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symspace_dynamics.png" alt="SymSpace Dynamics icon"><p class="eyebrow">Division</p><h1>SymSpace Dynamics</h1><p class="lead">SymSpace Dynamics explores long-term aerospace concepts, spacecraft systems, simulation, advanced materials and speculative propulsion roadmaps.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symspace_dynamics_banner.png" alt="SymSpace Dynamics banner"><div class="grid cards-3"><article class="card"><h3>Space systems and mission concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>AI-assisted aerospace simulation</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Long-horizon roadmap development</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymSpace Dynamics is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symspace_dynamics.png" alt="SymSpace Dynamics icon"><p class="eyebrow">Division</p><h1>SymSpace Dynamics</h1><p class="lead">SymSpace Dynamics explores long-term aerospace concepts, spacecraft systems, simulation, advanced materials and speculative propulsion roadmaps.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symspace_dynamics_banner.png" alt="SymSpace Dynamics banner"><div class="grid cards-3"><article class="card"><h3>Space systems and mission concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>AI-assisted aerospace simulation</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Long-horizon roadmap development</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymSpace Dynamics is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html:14: <script src="../js/main.js"></script>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symspace_dynamics.png" alt="SymSpace Dynamics icon"><p class="eyebrow">Division</p><h1>SymSpace Dynamics</h1><p class="lead">SymSpace Dynamics explores long-term aerospace concepts, spacecraft systems, simulation, advanced materials and speculative propulsion roadmaps.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symspace_dynamics_banner.png" alt="SymSpace Dynamics banner"><div class="grid cards-3"><article class="card"><h3>Space systems and mission concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>AI-assisted aerospace simulation</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Long-horizon roadmap development</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymSpace Dynamics is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:12: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symspace_dynamics.png" alt="SymSpace Dynamics icon"><p class="eyebrow">Division</p><h1>SymSpace Dynamics</h1><p class="lead">SymSpace Dynamics explores long-term aerospace concepts, spacecraft systems, simulation, advanced materials and speculative propulsion roadmaps.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symspace_dynamics_banner.png" alt="SymSpace Dynamics banner"><div class="grid cards-3"><article class="card"><h3>Space systems and mission concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>AI-assisted aerospace simulation</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Long-horizon roadmap development</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymSpace Dynamics is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:13: <footer class="footer"><div class="wrap"><p>Â© SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+_backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html:14: <script src="../js/main.js?v=2026-06-05_17-27-45"></script>
+index.html:20: <section><div class="wrap split"><div class="panel"><p class="eyebrow">Current status</p><h2>Research stage, not product stage.</h2><p>SymTech Ventures is currently a proposed start-up concept supported by documentation, research planning, website development and repository structure. The work is ambitious, but it remains exploratory and unvalidated. That honesty is important.</p></div><img class="feature-img" src="images/heroes/symtech_hero.png" alt="Futuristic research environment"></div></section>
+index.html:21: <section><div class="wrap"><div class="panel"><p class="eyebrow">Founderâ€™s note</p><h2>Led by Dr Geoffrey Thomas.</h2><p>SymTech Ventures was founded by Dr Geoffrey Thomas as a proposed Silicon Valley start-up concept built around Project SYMMETRIA and the planned Nilpotent Symmetry Research Project. The present goal is simple: explain the idea clearly, invite thoughtful discussion, and identify people who may want to help shape the next stage.</p></div></div></section>
+index.html:22: <section id="divisions"><div class="wrap"><div class="section-head"><p class="eyebrow">Five divisions</p><h2>Five areas where the ideas may eventually be explored.</h2></div><div class="grid cards-5"><article class="card"><img class="icon" src="images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy concepts and field-system modelling.</p></article><article class="card"><img class="icon" src="images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanotechnology, materials and fabrication concepts.</p></article><article class="card"><img class="icon" src="images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative concepts.</p></article><article class="card"><img class="icon" src="images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Aerospace, propulsion and long-term space systems.</p></article><article class="card"><img class="icon" src="images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, optimisation and computational research.</p></article></div><div class="actions"><a class="btn primary" href="pages/divisions.html">View all divisions</a></div></div></section>
+index.html:20: <section><div class="wrap split"><div class="panel"><p class="eyebrow">Current status</p><h2>Research stage, not product stage.</h2><p>SymTech Ventures is currently a proposed start-up concept supported by documentation, research planning, website development and repository structure. The work is ambitious, but it remains exploratory and unvalidated. That honesty is important.</p></div><img class="feature-img" src="images/heroes/symtech_hero.png" alt="Futuristic research environment"></div></section>
+index.html:21: <section><div class="wrap"><div class="panel"><p class="eyebrow">Founderâ€™s note</p><h2>Led by Dr Geoffrey Thomas.</h2><p>SymTech Ventures was founded by Dr Geoffrey Thomas as a proposed Silicon Valley start-up concept built around Project SYMMETRIA and the planned Nilpotent Symmetry Research Project. The present goal is simple: explain the idea clearly, invite thoughtful discussion, and identify people who may want to help shape the next stage.</p></div></div></section>
+index.html:22: <section id="divisions"><div class="wrap"><div class="section-head"><p class="eyebrow">Five divisions</p><h2>Five areas where the ideas may eventually be explored.</h2></div><div class="grid cards-5"><article class="card"><img class="icon" src="images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy concepts and field-system modelling.</p></article><article class="card"><img class="icon" src="images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanotechnology, materials and fabrication concepts.</p></article><article class="card"><img class="icon" src="images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative concepts.</p></article><article class="card"><img class="icon" src="images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Aerospace, propulsion and long-term space systems.</p></article><article class="card"><img class="icon" src="images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, optimisation and computational research.</p></article></div><div class="actions"><a class="btn primary" href="pages/divisions.html">View all divisions</a></div></div></section>
+index.html:25: 
+index.html:26: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+index.html:27: <script src="js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\contact.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/contact.png" alt="Contact icon"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">If the project interests you, the simplest next step is a thoughtful email explaining who you are, your background, and where you think you could contribute.</p></div></section><section><div class="wrap"><div class="panel"><h2>Email</h2><p><strong>geoffmthomas@gmail.com</strong></p><p>Please include your area of interest: SYMMETRIA, NSRP, SymCore Energy, SymCraft Nano, SymCura Health, SymSpace Dynamics, SymLogic Compute, or general collaboration.</p></div></div></section><section><div class="wrap"><div class="notice"><h2>Current status</h2><p>SymTech Ventures is at the introductory and research-formation stage. We are looking for serious conversations, not hype.</p></div></div></section></main>
+pages\contact.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\contact.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\divisions.html:16: <main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research divisions</p><h1>Five divisions</h1><p class="lead">The divisions are organisational pathways for future exploration, not claims that these technologies already exist.</p></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>SymCore Energy</h3><p>Future energy systems and theoretical field-energy concepts.</p><a href="symcore.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>SymCraft Nano</h3><p>Nanoscale manufacturing, materials and fabrication concepts.</p><a href="symcraft.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>SymCura Health</h3><p>Healthcare, diagnostics and regenerative technology concepts.</p><a href="symcura.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>SymSpace Dynamics</h3><p>Space systems, propulsion modelling and exploration roadmaps.</p><a href="symspace.html">Open</a></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>SymLogic Compute</h3><p>AI, simulation, modelling and computational research systems.</p><a href="symlogic.html">Open</a></article></div></div></section></main>
+pages\divisions.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\divisions.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\founding-fellows.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/founding_fellows.png" alt="Founding Fellows icon"><p class="eyebrow">Early collaborators</p><h1>Founding Fellows</h1><p class="lead">SymTech Ventures may eventually seek five founding leads, one for each division, to help shape the project with discipline, credibility and long-term vision.</p></div></section><section><div class="wrap split"><div class="panel"><h2>Not ordinary job vacancies</h2><p>This is an early-stage concept, not a funded company with salaried roles. The Founding Fellows idea is about identifying thoughtful people who might help guide the direction of the project as it matures.</p><p>The ideal people would be technically curious, scientifically cautious and comfortable working with ambitious ideas without overstating them.</p></div><img class="feature-img" src="../images/heroes/founding_fellows_hero.png" alt="Founding Fellows visual"></div></section><section><div class="wrap"><div class="grid cards-5"><article class="card"><img class="icon" src="../images/icons/symcore_energy.png" alt=""><h3>Energy Lead</h3><p>Energy systems, infrastructure and safety thinking.</p></article><article class="card"><img class="icon" src="../images/icons/symcraft_nano.png" alt=""><h3>Nano Lead</h3><p>Materials, fabrication and semiconductor awareness.</p></article><article class="card"><img class="icon" src="../images/icons/symcura_health.png" alt=""><h3>Health Lead</h3><p>Biomedical caution, ethics and clinical realism.</p></article><article class="card"><img class="icon" src="../images/icons/symspace_dynamics.png" alt=""><h3>Space Lead</h3><p>Aerospace systems, simulation and long-horizon planning.</p></article><article class="card"><img class="icon" src="../images/icons/symlogic_compute.png" alt=""><h3>Compute Lead</h3><p>AI, simulation, software and modelling infrastructure.</p></article></div></div></section></main>
+pages\founding-fellows.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\founding-fellows.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\nsrp.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/nsrp.png" alt="NSRP logo"><p class="eyebrow">Research programme</p><h1>NSRP</h1><p class="lead">The Nilpotent Symmetry Research Programme is the proposed five-stage pathway for developing, testing and maturing the SYMMETRIA framework from nilpotent consistency through to computational validation.</p></div></section><section><div class="wrap split"><img class="feature-img" src="../images/heroes/nsrp_hero.png" alt="NSRP research visual"><div class="panel"><h2>Why it matters</h2><p>The NSRP is intended to move SYMMETRIA from a broad conceptual framework into a disciplined research pathway. It begins with mathematical credibility, develops theory carefully, validates behaviour computationally, and only then considers whether future application domains may be justified.</p></div></div></section><section><div class="wrap"><div class="section-head"><p class="eyebrow">Five stages</p><h2>A staged route from credibility to maturity.</h2></div><div class="timeline"><article class="step"><strong>1</strong><div><h3>NCP: Nilpotent Consistency Project</h3><p>Establish the mathematical credibility of the nilpotent framework by testing internal consistency, structural closure and computational verifiability.</p></div></article><article class="step"><strong>2</strong><div><h3>SEP: Symmetry Emergence Programme</h3><p>Explore whether symmetry, resonance and physics-like structures can emerge from extended nilpotent systems.</p></div></article><article class="step"><strong>3</strong><div><h3>SDEP: SYMMETRIA Deepening Programme</h3><p>Develop the mathematical and theoretical structure of SYMMETRIA in greater depth, including correspondence with known physics and observer-boundary questions.</p></div></article><article class="step"><strong>4</strong><div><h3>SVP: SYMMETRIA Validation Programme</h3><p>Use Python-based simulation and computational modelling to test stability, emergence patterns and correspondence with known physical behaviour.</p></div></article><article class="step"><strong>5</strong><div><h3>SMP: SYMMETRIA Maturation Programme</h3><p>Refine, stress-test and consolidate the framework into a more stable and internally coherent research body before any future application work is considered.</p></div></article></div></div></section><section><div class="wrap split"><div class="panel"><h2>Current status</h2><p>The immediate focus is the Nilpotent Consistency Project. No applied technology work is currently being undertaken. The priority is to build credibility first, develop theory carefully, validate computationally and apply cautiously.</p></div><div class="panel"><h2>Get involved</h2><p>SymTech Ventures is interested in hearing from physicists, mathematicians, engineers, software developers, AI researchers, science communicators and thoughtful collaborators who may wish to follow or contribute to the long-term development of the project.</p></div></div></section></main>
+pages\nsrp.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\nsrp.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symcore.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcore_energy.png" alt="SymCore Energy icon"><p class="eyebrow">Division</p><h1>SymCore Energy</h1><p class="lead">SymCore Energy is the proposed energy division. Its role is to explore future energy concepts, distributed infrastructure ideas and speculative field-system models with strong safety and governance boundaries.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcore_energy_banner.png" alt="SymCore Energy banner"><div class="grid cards-3"><article class="card"><h3>Exploratory energy modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Early-stage energy research pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Infrastructure and safety thinking</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCore Energy is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+pages\symcore.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symcore.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symcraft.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcraft_nano.png" alt="SymCraft Nano icon"><p class="eyebrow">Division</p><h1>SymCraft Nano</h1><p class="lead">SymCraft Nano focuses on nanotechnology, advanced materials and nanoscale manufacturing concepts as a possible future research direction.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcraft_nano_banner.png" alt="SymCraft Nano banner"><div class="grid cards-3"><article class="card"><h3>Materials and fabrication concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Semiconductor and quantum-device pathways</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Atomic-scale precision as a long-term theme</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCraft Nano is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+pages\symcraft.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symcraft.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symcura.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symcura_health.png" alt="SymCura Health icon"><p class="eyebrow">Division</p><h1>SymCura Health</h1><p class="lead">SymCura Health explores future healthcare possibilities, diagnostics, regenerative systems and bioengineering concepts, while treating medical claims with particular caution.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symcura_health_banner.png" alt="SymCura Health banner"><div class="grid cards-3"><article class="card"><h3>Clinical evidence comes first</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Diagnostics and regenerative concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Ethics, safety and patient protection</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymCura Health is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+pages\symcura.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symcura.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symlogic.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symlogic_compute.png" alt="SymLogic Compute icon"><p class="eyebrow">Division</p><h1>SymLogic Compute</h1><p class="lead">SymLogic Compute is the computational backbone of the proposed ecosystem, focused on AI-assisted research, simulation, optimisation and reproducible modelling.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symlogic_compute_banner.png" alt="SymLogic Compute banner"><div class="grid cards-3"><article class="card"><h3>AI-assisted theoretical modelling</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Simulation and digital research infrastructure</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Support layer for all other divisions</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymLogic Compute is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+pages\symlogic.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symlogic.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symmetria.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/logos/symmetria.png" alt="SYMMETRIA logo"><p class="eyebrow">Theoretical foundation</p><h1>SYMMETRIA</h1><p class="lead">A developing research framework exploring symmetry, nilpotent algebra, layered emergence and the possibility of deeper structure beneath known physical systems.</p></div></section><section><div class="wrap split"><div class="panel"><h2>What it is</h2><p>SYMMETRIA is not presented as a completed or validated theory. It is a structured research direction: a way of organising mathematical ideas, physical questions, computational models and long-term technology speculation around the central theme of symmetry.</p><p>The aim is to move from broad ideas toward clearer definitions, internal consistency tests, computational modelling and external critique.</p></div><img class="feature-img" src="../images/heroes/symmetria_hero.png" alt="Abstract SYMMETRIA geometry"></div></section><section><div class="wrap"><div class="grid cards-3"><article class="card"><h3>Symmetry-first thinking</h3><p>Investigating whether symmetry can be treated as a deeper organising principle rather than only a property of existing laws.</p></article><article class="card"><h3>Nilpotent structures</h3><p>Exploring self-balancing algebraic forms and their potential relevance to emergence, cancellation and conservation.</p></article><article class="card"><h3>Computational pathway</h3><p>Prioritising modelling, simulation, reproducibility and criticism before any strong claims are made.</p></article></div></div></section></main>
+pages\symmetria.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symmetria.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+pages\symspace.html:16: <main><section class="page-hero"><div class="wrap"><img class="page-logo" src="../images/icons/symspace_dynamics.png" alt="SymSpace Dynamics icon"><p class="eyebrow">Division</p><h1>SymSpace Dynamics</h1><p class="lead">SymSpace Dynamics explores long-term aerospace concepts, spacecraft systems, simulation, advanced materials and speculative propulsion roadmaps.</p></div></section><section><div class="wrap"><img class="banner" src="../images/divisions/symspace_dynamics_banner.png" alt="SymSpace Dynamics banner"><div class="grid cards-3"><article class="card"><h3>Space systems and mission concepts</h3><p>Early-stage research direction.</p></article><article class="card"><h3>AI-assisted aerospace simulation</h3><p>Early-stage research direction.</p></article><article class="card"><h3>Long-horizon roadmap development</h3><p>Early-stage research direction.</p></article></div></div></section><section><div class="wrap"><div class="notice"><h2>Important note</h2><p>SymSpace Dynamics is currently a proposed research division within an early-stage concept. It is not yet an operating company, laboratory or funded research team.</p></div></div></section></main>
+pages\symspace.html:17: <footer class="footer"><div class="wrap"><p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p><p><a href="../pages/contact.html">geoffmthomas@gmail.com</a></p></div></footer>
+pages\symspace.html:18: <script src="../js/main.js?v=pass8_2026-06-05_18-14-07"></script>
+
+Charset meta checks:
+  _backups\contact_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\contact_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\divisions_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\divisions_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\founding-fellows_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\founding-fellows_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\index_backup_2026-06-05_13-44-57.html: UTF-8 meta present
+  _backups\index_backup_2026-06-05_13-47-06.html: UTF-8 meta present
+  _backups\index_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\index_backup_direct_injection_v4_2026-06-05_13-53-21.html: UTF-8 meta present
+  _backups\index_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\index_backup_visible_v3_2026-06-05_13-50-33.html: UTF-8 meta present
+  _backups\nsrp_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\nsrp_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symcore_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symcore_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symcraft_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symcraft_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symcura_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symcura_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symlogic_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symlogic_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symmetria_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symmetria_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  _backups\symspace_backup_clean_starfield_v6_2026-06-05_17-27-45.html: UTF-8 meta present
+  _backups\symspace_backup_visible_canvas_starfield_v7_2026-06-05_17-32-38.html: UTF-8 meta present
+  index.html: UTF-8 meta present
+  pages\contact.html: UTF-8 meta present
+  pages\divisions.html: UTF-8 meta present
+  pages\founding-fellows.html: UTF-8 meta present
+  pages\nsrp.html: UTF-8 meta present
+  pages\symcore.html: UTF-8 meta present
+  pages\symcraft.html: UTF-8 meta present
+  pages\symcura.html: UTF-8 meta present
+  pages\symlogic.html: UTF-8 meta present
+  pages\symmetria.html: UTF-8 meta present
+  pages\symspace.html: UTF-8 meta present
+  README.html: UTF-8 meta present
+
+==================================================================================================
+7. Preview Consistency Checks
+==================================================================================================
+Website path inspected: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+
+Index file check:
+  FOUND: index.html
+  Last modified: 06/05/2026 18:14:07
+
+Important note:
+This script can confirm what is on disk, but it cannot prove which files your browser is previewing unless the preview server path is also checked.
+If your browser still shows old behaviour after this script, check:
+  1. VS Code Live Server root folder.
+  2. Browser cache / hard refresh Ctrl+F5.
+  3. Whether you are opening a duplicate repo or older exported copy.
+  4. Whether GitHub Pages / remote hosting is serving a different branch or folder.
+
+==================================================================================================
+8. AetherOS Recommendation: How The Starfield Should Be Improved
+==================================================================================================
+My current view, based on your symptoms:
+The starfield should be rebuilt rather than endlessly patched. The existing effect sounds as if it relies too much on large circles, radial gradients, or glow halos. That creates 'bubbles', not stars.
+
+Recommended design:
+1. Use one fixed full-screen canvas behind the page content.
+2. Generate 600-1000 stars based on screen size and device pixel ratio.
+3. Use 3 depth layers: distant pinpoints, mid-depth brighter stars, and rare foreground sparkles.
+4. Use small points: most stars should be 0.35px to 1.2px logical radius. Avoid large circles.
+5. Use colour variation: white, cool cyan, muted blue, violet, and occasional soft gold.
+6. Use twinkle by changing alpha with a sine wave per star using its own phase and speed.
+7. Use rare sparkle flares: tiny cross-shaped glints on perhaps 1-2% of stars, not halos on every star.
+8. Add very subtle parallax drift from mouse movement or scroll, but keep it understated.
+9. Respect prefers-reduced-motion and pause animation when the tab is hidden.
+10. Keep CSS enhancements subtle: glass cards, gentle border glow, better section depth, but avoid gimmicks.
+
+Recommended next pass after this diagnostic:
+Generate a replacement starfield module that removes halo-heavy drawing and replaces it with:
+  - crisp point stars
+  - layered depth
+  - realistic alpha twinkle
+  - rare micro-flares
+  - no bubble halos
+  - no test text
+  - UTF-8 footer repair
+
+Do not apply the redesign until this diagnostic report confirms which CSS and JS files are actually used.
+
+==================================================================================================
+9. Completion
+==================================================================================================
+Diagnostic complete.
+Report path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_aetheros_reports\AetherOS_SymTech_Website_Structure_Starfield_Diagnostic_2026-06-05_18-23-36.txt
+Inventory CSV: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_aetheros_reports\AetherOS_SymTech_Website_Structure_Starfield_Diagnostic_Inventory_2026-06-05_18-23-36.csv

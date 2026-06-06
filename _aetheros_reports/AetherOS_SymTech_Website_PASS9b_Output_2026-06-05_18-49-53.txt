@@ -1,0 +1,61 @@
+﻿AetherOS SymTech Ventures Website PASS 9b Output Report
+Generated: 2026-06-05_18-49-53
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+Mode: MODIFY pass. Website files were backed up before changes.
+
+==================================================================================================
+1. Files Modified
+==================================================================================================
+CSS modified: css\styles.css
+JS modified: js\main.js
+HTML files scanned: 55
+HTML files modified: 11
+Backups written to: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\pass9b_safe_starfield_overlay_2026-06-05_18-49-53
+
+==================================================================================================
+2. Safe Overlay Strategy
+==================================================================================================
+Old visible canvas hidden by CSS: YES (#aetheros-starfield display:none)
+New canvas created by JS: YES (#aetheros-starfield-pass9b)
+No replacement of existing function required: YES
+This avoids regex failure inside js\main.js.
+
+==================================================================================================
+3. Starfield Quality Checks
+==================================================================================================
+PASS9B CSS marker present: True
+PASS9B JS marker present: True
+Stats object present: True
+Uses radial gradients for individual stars: False
+Uses shadowBlur for stars: False
+Uses tiny fillRect points: True
+Uses small canvas arcs only: True
+Uses micro-flares: True
+Uses sine-wave alpha twinkle: True
+Star count formula: area / 1100, clamped to 700-1100
+
+==================================================================================================
+4. HTML / Cache Busting
+==================================================================================================
+Live HTML files found: 55
+Live HTML files with PASS9B cache-buster: 11 / 55
+Cache-buster used: pass9b_2026-06-05_18-49-53
+
+==================================================================================================
+5. Encoding Guard
+==================================================================================================
+Encoding artefacts detected in live HTML: NONE
+
+==================================================================================================
+6. Browser Check
+==================================================================================================
+After running, press Ctrl+F5 in the browser.
+If using VS Code Live Server, restart Live Server.
+In browser dev tools console, you can type:
+window.AETHEROS_PASS9B_STARFIELD_STATS
+It should show starCount, width, height, and design details.
+
+Upload this report back to ChatGPT:
+C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_aetheros_reports\AetherOS_SymTech_Website_PASS9b_Output_2026-06-05_18-49-53.txt
+
+Completion: PASS 9b applied.

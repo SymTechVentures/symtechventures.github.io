@@ -1,0 +1,55 @@
+﻿AetherOS SymTech Ventures Website PASS 10 Visibility Probe Output Report
+Generated: 2026-06-05_18-52-52
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+Mode: MODIFY diagnostic. This pass intentionally adds obvious temporary visual proof.
+
+==================================================================================================
+1. Files Modified
+==================================================================================================
+CSS modified: css\styles.css
+JS modified: js\main.js
+HTML files scanned: 55
+HTML files modified for cache busting: 11
+Backups written to: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\pass10_visibility_probe_2026-06-05_18-52-52
+
+==================================================================================================
+2. Probe Markers
+==================================================================================================
+CSS probe marker present: YES
+JS probe marker present: YES
+Expected visible CSS proof: top-right badge saying AETHEROS PASS 10 LIVE - CSS LOADED
+Expected visible CSS proof: cyan border around page
+Expected visible JS proof: much stronger starfield overlay
+Expected console object: window.AETHEROS_PASS10_VISIBILITY_PROBE
+
+==================================================================================================
+3. Cache Busting
+==================================================================================================
+Cache-buster used: pass10_2026-06-05_18-52-52
+Root CSS refs updated: 11
+Page CSS refs updated: 10
+Root JS refs updated: 11
+Page JS refs updated: 10
+
+==================================================================================================
+4. What The Result Means
+==================================================================================================
+If the badge appears, css/styles.css is definitely loading.
+If the starfield appears and DevTools shows window.AETHEROS_PASS10_VISIBILITY_PROBE, js/main.js is definitely loading.
+If neither appears, your browser/preview is not serving this website_test folder or is using a different file root.
+If the badge appears but no starfield, CSS is loading but JS is not loading or is erroring.
+If starfield appears but no badge, JS is loading but CSS is not loading.
+
+==================================================================================================
+5. Browser Instructions
+==================================================================================================
+Restart VS Code Live Server.
+Open the site again from index.html in the website_test folder.
+Press Ctrl+F5.
+Open DevTools Console and type: window.AETHEROS_PASS10_VISIBILITY_PROBE
+Upload this report and, ideally, a screenshot of the page.
+
+Report path:
+C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_aetheros_reports\AetherOS_SymTech_Website_PASS10_VisibilityProbe_Output_2026-06-05_18-52-52.txt
+
+Completion: PASS 10 visibility probe applied.

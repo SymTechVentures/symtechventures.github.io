@@ -1,0 +1,22 @@
+﻿PASS10 cleanup complete.
+Generated: 2026-06-06_12-48-22
+
+Files changed:
+ - css\styles.css
+ - js\main.js
+ - pages\contact.html
+ - pages\divisions.html
+ - pages\founding-fellows.html
+ - pages\nsrp.html
+ - pages\symcore.html
+ - pages\symcraft.html
+ - pages\symcura.html
+ - pages\symlogic.html
+ - pages\symmetria.html
+ - pages\symspace.html
+ - index.html
+
+Next:
+1. Restart VS Code Live Server.
+2. Press Ctrl+F5 in browser.
+3. If still visible, upload this report and a fresh website zip.

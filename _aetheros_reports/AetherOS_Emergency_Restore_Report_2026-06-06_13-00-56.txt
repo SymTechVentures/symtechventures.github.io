@@ -1,0 +1,70 @@
+﻿AetherOS Emergency Restore Report
+Generated: 2026-06-06_13-00-56
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+Restored from backup: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\pass10_top_gap_repair_simple_2026-06-06_12-58-33
+Safety backup of damaged current files: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\before_emergency_restore_2026-06-06_13-00-56
+
+Files requested for restore: 49
+Files restored: 49
+Missing backup files: 0
+
+Restored files:
+ - .gitignore
+ - .gitkeep
+ - favicon.ico
+ - index.html
+ - README.md
+ - README_POLISH_PASS.md
+ - assets\css\style.css
+ - assets\js\main.js
+ - css\.gitkeep
+ - css\styles.css
+ - data\.gitkeep
+ - data\content.json
+ - docs\.gitkeep
+ - images\.gitkeep
+ - images\backgrounds\.gitkeep
+ - images\divisions\symcore_energy_banner.png
+ - images\divisions\symcraft_nano_banner.png
+ - images\divisions\symcura_health_banner.png
+ - images\divisions\symlogic_compute_banner.png
+ - images\divisions\symspace_dynamics_banner.png
+ - images\heroes\founding_fellows_hero.png
+ - images\heroes\nsrp_hero.png
+ - images\heroes\symmetria_hero.png
+ - images\heroes\symtech_hero.png
+ - images\icons\.gitkeep
+ - images\icons\contact.png
+ - images\icons\founding_fellows.png
+ - images\icons\symcore_energy.png
+ - images\icons\symcraft_nano.png
+ - images\icons\symcura_health.png
+ - images\icons\symlogic_compute.png
+ - images\icons\symspace_dynamics.png
+ - images\logos\.gitkeep
+ - images\logos\nsrp.png
+ - images\logos\symmetria.png
+ - images\logos\symtech.png
+ - js\.gitkeep
+ - js\main.js
+ - pages\.gitkeep
+ - pages\contact.html
+ - pages\divisions.html
+ - pages\founding-fellows.html
+ - pages\nsrp.html
+ - pages\symcore.html
+ - pages\symcraft.html
+ - pages\symcura.html
+ - pages\symlogic.html
+ - pages\symmetria.html
+ - pages\symspace.html
+
+Missing backups:
+None
+
+Next steps:
+1. Restart VS Code Live Server.
+2. Press Ctrl+F5.
+3. Check the website.
+4. Run: git status
+5. Do NOT run any more cleanup scripts until the site is visually confirmed recovered.

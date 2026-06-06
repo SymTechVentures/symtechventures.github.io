@@ -1,0 +1,34 @@
+﻿AetherOS Shimmer Hard Reset Report
+Generated: 2026-06-06_13-32-05
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+
+Purpose:
+Replace accumulated AetherOS starfield/shimmer patches with one clean two-canvas shimmer system.
+
+Files changed:
+ - css\styles.css
+ - js\main.js
+
+HTML files changed/cache-busted:
+ - index.html
+ - pages\contact.html
+ - pages\divisions.html
+ - pages\founding-fellows.html
+ - pages\nsrp.html
+ - pages\symcore.html
+ - pages\symcraft.html
+ - pages\symcura.html
+ - pages\symlogic.html
+ - pages\symmetria.html
+ - pages\symspace.html
+
+Backup folder: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\shimmer_hard_reset_2026-06-06_13-32-05
+
+Browser console check, if needed:
+window.AETHEROS_SHIMMER_HARD_RESET
+
+Next steps:
+1. Restart VS Code Live Server.
+2. Press Ctrl+F5.
+3. Confirm the shimmer is visible.
+4. Confirm no top gap has returned.

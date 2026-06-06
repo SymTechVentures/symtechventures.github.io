@@ -1,0 +1,40 @@
+﻿AetherOS Final Visible Shimmer And Icon Correction Report
+Generated: 2026-06-06_13-18-52
+Website path: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test
+
+Purpose:
+Correct the bad SymLogic icon restore and add a clearly visible shimmer overlay above page layers.
+
+Changed files:
+ - images\icons\symlogic_compute.png
+ - css\styles.css
+ - js\main.js
+
+HTML files cache-busted:
+ - index.html
+ - pages\contact.html
+ - pages\divisions.html
+ - pages\founding-fellows.html
+ - pages\nsrp.html
+ - pages\symcore.html
+ - pages\symcraft.html
+ - pages\symcura.html
+ - pages\symlogic.html
+ - pages\symmetria.html
+ - pages\symspace.html
+
+Icon validity after correction: True
+
+Notes:
+ - SymLogic icon restored from icon candidate: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\pass10_topgap_repair_v2_2026-06-06_12-56-56\images_icons_symlogic_compute.png
+
+Backup folder: C:\Users\Geoff\OneDrive\Documents\Projects\SymTech_Ventures\website_test\_backups\visible_shimmer_and_icon_correction_2026-06-06_13-18-52
+
+Browser console check:
+window.AETHEROS_FINAL_VISIBLE_SHIMMER
+
+Next steps:
+1. Restart VS Code Live Server.
+2. Press Ctrl+F5.
+3. Confirm visible shimmer.
+4. Confirm SymLogic icon is correct; if still wrong, restore it from Git/original zip.
