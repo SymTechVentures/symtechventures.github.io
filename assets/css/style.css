@@ -110,3 +110,187 @@ img {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* AETHEROS_HARD_PANEL_GLASS_OVERRIDE_START */
+/*
+  Hard override pass:
+  - Removes visible rectangular panel blocks.
+  - Makes cards semi-transparent.
+  - Does NOT alter starfield JS, star count, shimmer, animation, or colours.
+*/
+
+:root {
+  --aetheros-hard-glass: rgba(4, 10, 26, 0.28);
+  --aetheros-hard-glass-hover: rgba(4, 10, 26, 0.38);
+}
+
+/* Broad card/panel reset */
+.card,
+.cards > *,
+.feature-card,
+.division-card,
+.fellow-card,
+.lead-card,
+.research-card,
+.topic-card,
+.info-card,
+.glass-card,
+.panel,
+.feature-panel,
+.prelude-panel,
+.notice,
+.step,
+.tile,
+.grid-card,
+.home-card,
+[class*="card"],
+[class*="panel"],
+[class*="tile"] {
+  background: rgba(4, 10, 26, 0.28) !important;
+  background-color: rgba(4, 10, 26, 0.28) !important;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.010)) !important;
+  border: 1px solid rgba(118, 226, 255, 0.035) !important;
+  box-shadow: none !important;
+  outline: none !important;
+  backdrop-filter: blur(7px) !important;
+  -webkit-backdrop-filter: blur(7px) !important;
+}
+
+/* Kill hard rectangular overlays created by pseudo-elements */
+.card::before,
+.card::after,
+.feature-card::before,
+.feature-card::after,
+.division-card::before,
+.division-card::after,
+.fellow-card::before,
+.fellow-card::after,
+.lead-card::before,
+.lead-card::after,
+.research-card::before,
+.research-card::after,
+.topic-card::before,
+.topic-card::after,
+.info-card::before,
+.info-card::after,
+.glass-card::before,
+.glass-card::after,
+.panel::before,
+.panel::after,
+.feature-panel::before,
+.feature-panel::after,
+.prelude-panel::before,
+.prelude-panel::after,
+.notice::before,
+.notice::after,
+.step::before,
+.step::after,
+.tile::before,
+.tile::after,
+.grid-card::before,
+.grid-card::after,
+.home-card::before,
+.home-card::after,
+[class*="card"]::before,
+[class*="card"]::after,
+[class*="panel"]::before,
+[class*="panel"]::after,
+[class*="tile"]::before,
+[class*="tile"]::after {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  opacity: 0 !important;
+}
+
+/* Remove rectangular section bands behind grids */
+.card-grid,
+.cards,
+.divisions-grid,
+.fellows-grid,
+.leads-grid,
+.research-grid,
+.feature-grid,
+.topic-grid,
+.grid,
+.section-grid,
+main,
+section,
+.page-section,
+.content-section,
+.home-section,
+.divisions-section,
+.founding-section,
+.research-section {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Keep hover subtle without bringing back boxes */
+.card:hover,
+.feature-card:hover,
+.division-card:hover,
+.fellow-card:hover,
+.lead-card:hover,
+.research-card:hover,
+.topic-card:hover,
+.info-card:hover,
+.glass-card:hover,
+.panel:hover,
+.tile:hover,
+.grid-card:hover,
+.home-card:hover,
+[class*="card"]:hover,
+[class*="panel"]:hover,
+[class*="tile"]:hover {
+  background: rgba(4, 10, 26, 0.38) !important;
+  background-color: rgba(4, 10, 26, 0.38) !important;
+  box-shadow: none !important;
+  border-color: rgba(118, 226, 255, 0.08) !important;
+}
+
+/* Preserve readability */
+.card p,
+.feature-card p,
+.division-card p,
+.fellow-card p,
+.lead-card p,
+.research-card p,
+.topic-card p,
+.info-card p,
+.glass-card p,
+.panel p,
+.tile p,
+.grid-card p,
+.home-card p,
+[class*="card"] p,
+[class*="panel"] p,
+[class*="tile"] p {
+  color: rgba(232, 241, 255, 0.84) !important;
+}
+
+.card h1, .card h2, .card h3, .card h4,
+.feature-card h1, .feature-card h2, .feature-card h3, .feature-card h4,
+.division-card h1, .division-card h2, .division-card h3, .division-card h4,
+.fellow-card h1, .fellow-card h2, .fellow-card h3, .fellow-card h4,
+.lead-card h1, .lead-card h2, .lead-card h3, .lead-card h4,
+.research-card h1, .research-card h2, .research-card h3, .research-card h4,
+.topic-card h1, .topic-card h2, .topic-card h3, .topic-card h4,
+.info-card h1, .info-card h2, .info-card h3, .info-card h4,
+.glass-card h1, .glass-card h2, .glass-card h3, .glass-card h4,
+.panel h1, .panel h2, .panel h3, .panel h4,
+.tile h1, .tile h2, .tile h3, .tile h4,
+.grid-card h1, .grid-card h2, .grid-card h3, .grid-card h4,
+.home-card h1, .home-card h2, .home-card h3, .home-card h4,
+[class*="card"] h1, [class*="card"] h2, [class*="card"] h3, [class*="card"] h4,
+[class*="panel"] h1, [class*="panel"] h2, [class*="panel"] h3, [class*="panel"] h4,
+[class*="tile"] h1, [class*="tile"] h2, [class*="tile"] h3, [class*="tile"] h4 {
+  color: rgba(248, 252, 255, 0.97) !important;
+}
+/* AETHEROS_HARD_PANEL_GLASS_OVERRIDE_END */
+

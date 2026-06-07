@@ -79,3 +79,631 @@ header,
 }
 /* AETHEROS_SHIMMER_HARD_RESET_END */
 
+/* AETHEROS_NSRP_PRELUDE_SERIES_START */
+.nsrp-prelude-hero { min-height: 58vh; }
+.prelude-intro, .prelude-series, .prelude-feature, .prelude-caution { position: relative; }
+.prelude-panel, .feature-panel { border: 1px solid rgba(118,226,255,.28); box-shadow: 0 24px 80px rgba(0,0,0,.32), 0 0 42px rgba(118,226,255,.08); }
+.section-lead { max-width: 780px; color: rgba(232,241,255,.76); font-size: 1.05rem; line-height: 1.7; }
+.topic-category { margin-top: 3rem; }
+.topic-category > h3 { margin-bottom: .35rem; color: #eaf7ff; }
+.topic-category > p { margin-top: 0; color: rgba(225,236,255,.72); }
+.topic-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; margin-top: 1.2rem; }
+.topic-card { position: relative; padding: 1.25rem; border: 1px solid rgba(132,190,255,.26); border-radius: 18px; background: linear-gradient(180deg, rgba(255,255,255,.075), rgba(255,255,255,.028)); box-shadow: 0 18px 52px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.055); overflow: hidden; }
+.topic-card::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 20% 0%, rgba(118,226,255,.15), transparent 38%), radial-gradient(circle at 88% 100%, rgba(167,124,255,.12), transparent 42%); pointer-events: none; opacity: .85; }
+.topic-card > * { position: relative; z-index: 1; }
+.topic-card h4 { margin: .8rem 0 .65rem; color: #fff; line-height: 1.25; }
+.topic-card p { color: rgba(232,241,255,.74); line-height: 1.58; }
+.week-label { display: inline-flex; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: #8eeaff; }
+.status-badge { display: inline-flex; margin-top: .75rem; padding: .32rem .65rem; border-radius: 999px; font-size: .76rem; letter-spacing: .04em; text-transform: uppercase; border: 1px solid rgba(255,255,255,.16); }
+.status-badge.complete { color: #dffcff; background: rgba(77,220,255,.12); border-color: rgba(77,220,255,.32); }
+.status-badge.planned { color: rgba(232,241,255,.72); background: rgba(255,255,255,.055); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .85rem; margin-top: 1.4rem; }
+.button.secondary { background: rgba(255,255,255,.065); border-color: rgba(255,255,255,.22); }
+@media (max-width: 980px) { .topic-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 680px) { .topic-grid { grid-template-columns: 1fr; } .nsrp-prelude-hero { min-height: auto; } }
+/* AETHEROS_NSRP_PRELUDE_SERIES_END */
+
+/* AETHEROS_NAV_AND_STARFIELD_CONSISTENCY_START */
+:root {
+  --aetheros-surface-strong: rgba(5, 10, 24, 0.78);
+  --aetheros-surface-medium: rgba(5, 10, 24, 0.62);
+  --aetheros-surface-soft: rgba(5, 10, 24, 0.42);
+  --aetheros-border-soft: rgba(132, 190, 255, 0.24);
+}
+
+/* Keep the starfield consistently visible behind the whole page. */
+body,
+main,
+section,
+.page,
+.page-hero,
+.hero,
+.prelude-intro,
+.prelude-series,
+.prelude-feature,
+.prelude-caution {
+  background-color: transparent !important;
+}
+
+/* Avoid fully opaque blocks that make the starfield vanish in some sections. */
+.panel,
+.card,
+.notice,
+.step,
+.division-card,
+.topic-card,
+.feature-panel,
+.prelude-panel,
+[class*="card"] {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.070), rgba(255,255,255,0.026)),
+    var(--aetheros-surface-medium) !important;
+  border-color: var(--aetheros-border-soft) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Header/footer need slightly more density for readability, but still not flat black. */
+.topbar,
+.site-header,
+.footer {
+  background: var(--aetheros-surface-strong) !important;
+  backdrop-filter: blur(14px);
+}
+
+/* Some page sections may have inherited solid backgrounds. Neutralise those without changing layout. */
+section::before,
+section::after {
+  pointer-events: none;
+}
+
+/* Return/back navigation. */
+.page-return-bar {
+  position: relative;
+  z-index: 3;
+  background: rgba(5, 10, 24, 0.46);
+  border-bottom: 1px solid rgba(132, 190, 255, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.page-return-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.page-return-button,
+.page-return-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(132, 190, 255, 0.26);
+  background: rgba(255, 255, 255, 0.055);
+  color: rgba(235, 247, 255, 0.92);
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+}
+
+.page-return-button:hover,
+.page-return-home:hover {
+  transform: translateY(-1px);
+  border-color: rgba(118, 226, 255, 0.54);
+  background: rgba(118, 226, 255, 0.10);
+}
+
+@media (max-width: 640px) {
+  .page-return-inner {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .page-return-button,
+  .page-return-home {
+    min-height: 2.2rem;
+    padding: 0.48rem 0.75rem;
+  }
+}
+/* AETHEROS_NAV_AND_STARFIELD_CONSISTENCY_END */
+
+/* AETHEROS_NSRP_WEEK01_LINKS_START */
+.compact-prelude-panel {
+  max-width: 980px;
+  margin-inline: auto;
+}
+
+.featured-topic {
+  border-color: rgba(118, 226, 255, 0.46) !important;
+  box-shadow:
+    0 22px 70px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255,255,255,0.07),
+    0 0 42px rgba(118, 226, 255, 0.11) !important;
+}
+
+.topic-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.15rem;
+  padding: 0.45rem 0.78rem;
+  border-radius: 999px;
+  border: 1px solid rgba(118, 226, 255, 0.42);
+  background: rgba(118, 226, 255, 0.12);
+  color: rgba(239, 250, 255, 0.96);
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.mini-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(118, 226, 255, 0.74);
+  background: rgba(118, 226, 255, 0.18);
+}
+
+.mini-button.secondary {
+  border-color: rgba(190, 150, 255, 0.38);
+  background: rgba(190, 150, 255, 0.10);
+}
+
+.paper-feature-panel {
+  margin-top: 1.5rem;
+}
+/* AETHEROS_NSRP_WEEK01_LINKS_END */
+
+/* AETHEROS_ROUNDED_GLASS_CARDS_START */
+/*
+  Purpose:
+  - Restore rounded card/panel boxes.
+  - Keep them semi-transparent.
+  - Avoid the rectangular compositing artefacts caused by broad grid-child blur rules.
+  - Do not modify the starfield or shimmer.
+*/
+
+:root {
+  --symtech-card-glass-bg: rgba(8, 16, 36, 0.34);
+  --symtech-card-glass-bg-hover: rgba(10, 22, 48, 0.44);
+  --symtech-card-border: rgba(126, 210, 255, 0.16);
+  --symtech-card-border-hover: rgba(126, 210, 255, 0.28);
+}
+
+/* Layout containers must stay invisible so no large black rectangles return */
+.grid,
+.cards,
+.cards-3,
+.cards-5,
+.card-grid,
+.topic-grid,
+.section-grid,
+.wrap,
+section,
+main,
+.page-section,
+.content-section,
+.home-section,
+.divisions-section,
+.founding-section,
+.research-section,
+.prelude-preview,
+.prelude-series,
+.prelude-intro,
+.prelude-feature,
+.prelude-paper-feature,
+.prelude-caution {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* No pseudo-elements on layout containers */
+.grid::before,
+.grid::after,
+.cards::before,
+.cards::after,
+.cards-3::before,
+.cards-3::after,
+.cards-5::before,
+.cards-5::after,
+.card-grid::before,
+.card-grid::after,
+.topic-grid::before,
+.topic-grid::after,
+.section-grid::before,
+.section-grid::after,
+.wrap::before,
+.wrap::after,
+section::before,
+section::after,
+main::before,
+main::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Restore the actual rounded boxes only on real content cards/panels */
+.card,
+.panel,
+.notice,
+.step,
+.topic-card,
+.feature-panel,
+.prelude-panel,
+.paper-feature-panel,
+.compact-prelude-panel,
+.featured-topic {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.014)),
+    var(--symtech-card-glass-bg) !important;
+  background-color: var(--symtech-card-glass-bg) !important;
+  border: 1px solid var(--symtech-card-border) !important;
+  border-radius: 24px !important;
+  outline: 0 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.055),
+    0 12px 30px rgba(0,0,0,0.14) !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  overflow: hidden !important;
+}
+
+/* Special timeline cards retain a slightly smaller radius */
+.step {
+  border-radius: 20px !important;
+}
+
+/* Topic cards can keep their shape but not their old pseudo glow layer */
+.topic-card,
+.featured-topic {
+  border-radius: 18px !important;
+}
+
+/* Keep pseudo-layers disabled because they caused edge/box artefacts */
+.card::before,
+.card::after,
+.panel::before,
+.panel::after,
+.notice::before,
+.notice::after,
+.step::before,
+.step::after,
+.topic-card::before,
+.topic-card::after,
+.feature-panel::before,
+.feature-panel::after,
+.prelude-panel::before,
+.prelude-panel::after,
+.paper-feature-panel::before,
+.paper-feature-panel::after,
+.compact-prelude-panel::before,
+.compact-prelude-panel::after,
+.featured-topic::before,
+.featured-topic::after {
+  content: none !important;
+  display: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  opacity: 0 !important;
+}
+
+/* Hover restores a little life without creating hard rectangles */
+.card:hover,
+.panel:hover,
+.notice:hover,
+.step:hover,
+.topic-card:hover,
+.feature-panel:hover,
+.prelude-panel:hover,
+.paper-feature-panel:hover,
+.compact-prelude-panel:hover,
+.featured-topic:hover {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.070), rgba(255,255,255,0.020)),
+    var(--symtech-card-glass-bg-hover) !important;
+  background-color: var(--symtech-card-glass-bg-hover) !important;
+  border-color: var(--symtech-card-border-hover) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.070),
+    0 16px 36px rgba(0,0,0,0.18) !important;
+  transform: translateY(-1px);
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Text readability */
+.card p,
+.panel p,
+.notice p,
+.step p,
+.topic-card p,
+.feature-panel p,
+.prelude-panel p,
+.paper-feature-panel p,
+.compact-prelude-panel p,
+.featured-topic p {
+  color: rgba(232, 241, 255, 0.86) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+}
+
+.card h1, .card h2, .card h3, .card h4,
+.panel h1, .panel h2, .panel h3, .panel h4,
+.notice h1, .notice h2, .notice h3, .notice h4,
+.step h1, .step h2, .step h3, .step h4,
+.topic-card h1, .topic-card h2, .topic-card h3, .topic-card h4,
+.feature-panel h1, .feature-panel h2, .feature-panel h3, .feature-panel h4,
+.prelude-panel h1, .prelude-panel h2, .prelude-panel h3, .prelude-panel h4,
+.paper-feature-panel h1, .paper-feature-panel h2, .paper-feature-panel h3, .paper-feature-panel h4,
+.compact-prelude-panel h1, .compact-prelude-panel h2, .compact-prelude-panel h3, .compact-prelude-panel h4,
+.featured-topic h1, .featured-topic h2, .featured-topic h3, .featured-topic h4 {
+  color: rgba(248, 252, 255, 0.98) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.44);
+}
+
+/* Header/footer/nav remain readable */
+.topbar,
+.site-header,
+.footer {
+  background: rgba(3, 8, 22, 0.44) !important;
+  border-color: rgba(118, 226, 255, 0.08) !important;
+  box-shadow: none !important;
+}
+
+.page-return-bar {
+  background: rgba(3, 8, 22, 0.18) !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+/* AETHEROS_ROUNDED_GLASS_CARDS_END */
+
+
+/* AETHEROS_HIDE_NSRP_SECTIONS_START */
+
+/* Hide redundant NSRP prelude sections */
+.page-return-bar{
+    display:none !important;
+}
+
+.prelude-feature{
+    display:none !important;
+}
+
+.prelude-paper-feature{
+    display:none !important;
+}
+
+/* AETHEROS_HIDE_NSRP_SECTIONS_END */
+
+
+/* AETHEROS_STICKY_HEADER_START */
+
+.site-header,
+.topbar,
+header.site-header,
+header.topbar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+}
+
+/* AETHEROS_STICKY_HEADER_END */
+
+
+/* AETHEROS_HIDE_NSRP_HERO_ACTIONS_START */
+
+.nsrp-prelude-hero .hero-actions{
+    display:none !important;
+}
+
+/* AETHEROS_HIDE_NSRP_HERO_ACTIONS_END */
+
+
+/* AETHEROS_TARGETED_HEADER_NORMALISE_START */
+
+.topbar,
+header.topbar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 99999 !important;
+}
+
+.nsrp-prelude-hero .hero-actions{
+    display:none !important;
+}
+
+.prelude-feature,
+.prelude-paper-feature{
+    display:none !important;
+}
+
+/* Keep old injected nav systems suppressed if any remain */
+.aetheros-universal-nav,
+.page-return-bar{
+    display:none !important;
+}
+
+/* Help standalone paper pages accept the normal site header */
+body > header.topbar{
+    margin-top:0 !important;
+}
+
+/* AETHEROS_TARGETED_HEADER_NORMALISE_END */
+
+
+/* AETHEROS_PROMOTE_PAPER_HEADER_GLOBAL_START */
+
+/* Promote the larger/brighter paper-style header to the whole website. */
+.topbar,
+header.topbar{
+  position:sticky !important;
+  top:0 !important;
+  z-index:99999 !important;
+  min-height:78px !important;
+  width:100% !important;
+  max-width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  box-sizing:border-box !important;
+  background:rgba(3,8,22,0.94) !important;
+  border-bottom:1px solid rgba(126,210,255,0.18) !important;
+  box-shadow:0 8px 28px rgba(0,0,0,0.22) !important;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+
+.topbar,
+.topbar *{
+  box-sizing:border-box !important;
+  text-align:left !important;
+  text-justify:auto !important;
+  hyphens:none !important;
+  -webkit-hyphens:none !important;
+  word-break:normal !important;
+}
+
+.topbar .wrap.navrow,
+.topbar .wrap.nav-wrap,
+.topbar .navrow,
+.topbar .nav-wrap{
+  max-width:1200px !important;
+  width:100% !important;
+  min-height:78px !important;
+  margin:0 auto !important;
+  padding:14px 24px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:26px !important;
+}
+
+.topbar .brand{
+  display:flex !important;
+  align-items:center !important;
+  gap:14px !important;
+  color:#f5f8ff !important;
+  text-decoration:none !important;
+  min-width:0 !important;
+  flex:0 1 auto !important;
+}
+
+.topbar .brand img{
+  width:50px !important;
+  height:50px !important;
+  object-fit:contain !important;
+  display:block !important;
+  flex:0 0 auto !important;
+  margin:0 !important;
+  padding:0 !important;
+  border:0 !important;
+}
+
+.topbar .brand > span{
+  display:flex !important;
+  flex-direction:column !important;
+  gap:3px !important;
+  margin:0 !important;
+  padding:0 !important;
+  color:#f5f8ff !important;
+}
+
+.topbar .brand strong{
+  display:block !important;
+  font-size:1.08rem !important;
+  font-weight:800 !important;
+  line-height:1.08 !important;
+  color:#ffffff !important;
+  letter-spacing:0 !important;
+  text-transform:none !important;
+  white-space:nowrap !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.topbar .brand span span{
+  display:block !important;
+  font-size:0.84rem !important;
+  font-weight:400 !important;
+  line-height:1.08 !important;
+  color:rgba(232,241,255,0.78) !important;
+  letter-spacing:0 !important;
+  text-transform:none !important;
+  white-space:nowrap !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.topbar .nav{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-end !important;
+  gap:22px !important;
+  flex-wrap:wrap !important;
+  min-width:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.topbar .nav a{
+  display:inline-block !important;
+  color:rgba(232,241,255,0.94) !important;
+  text-decoration:none !important;
+  font-size:1rem !important;
+  font-weight:700 !important;
+  line-height:1.1 !important;
+  letter-spacing:0 !important;
+  text-transform:none !important;
+  white-space:nowrap !important;
+  margin:0 !important;
+  padding:0 !important;
+  border:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+}
+
+.topbar .nav a:hover{
+  color:#5be7ff !important;
+}
+
+@media (max-width:900px){
+  .topbar .wrap.navrow,
+  .topbar .wrap.nav-wrap,
+  .topbar .navrow,
+  .topbar .nav-wrap{
+    align-items:flex-start !important;
+    flex-direction:column !important;
+    gap:12px !important;
+    padding:14px 20px !important;
+  }
+
+  .topbar .nav{
+    justify-content:flex-start !important;
+    gap:14px !important;
+  }
+}
+
+/* AETHEROS_PROMOTE_PAPER_HEADER_GLOBAL_END */
+
