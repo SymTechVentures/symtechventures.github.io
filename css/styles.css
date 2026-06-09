@@ -1173,3 +1173,21 @@ body > header.site-header:not(.aetheros-site-header) {
 }
 /* AETHEROS FINAL FIXED HEADER SYSTEM END */
 
+/* AETHEROS REMOVE HOME ICON NAV REBALANCE START */
+.aetheros-icon-nav {
+    gap: 0.7rem !important;
+}
+
+@media (max-width: 900px) {
+    .aetheros-icon-nav {
+        gap: 0.38rem !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .aetheros-icon-nav {
+        gap: 0.3rem !important;
+    }
+}
+/* AETHEROS REMOVE HOME ICON NAV REBALANCE END */
+
