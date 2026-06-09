@@ -707,3 +707,469 @@ header.topbar{
 
 /* AETHEROS_PROMOTE_PAPER_HEADER_GLOBAL_END */
 
+/* AETHEROS HERO LOGO 220PX UNIFY START */
+.page-logo,
+.hero-icon,
+.aetheros-fixed-hero-icon {
+    width:220px !important;
+    height:220px !important;
+    max-width:220px !important;
+    max-height:220px !important;
+    object-fit:contain !important;
+    display:block !important;
+    margin:0 auto 1.35rem auto !important;
+    filter:drop-shadow(0 0 24px rgba(95,210,255,0.34));
+}
+
+.hero-logo,
+.home-hero-logo,
+.hero img.hero-logo,
+.hero img.home-hero-logo {
+    width:220px !important;
+    height:220px !important;
+    max-width:220px !important;
+    max-height:220px !important;
+    object-fit:contain !important;
+    display:block !important;
+    margin:0 auto 1.35rem auto !important;
+}
+
+.aetheros-fixed-hero-icon[alt*="Divisions"],
+.hero-icon[alt*="Divisions"],
+img[alt="Divisions icon"] {
+    transform:scale(1.05) !important;
+}
+
+@media (max-width: 900px) {
+    .page-logo,
+    .hero-icon,
+    .aetheros-fixed-hero-icon,
+    .hero-logo,
+    .home-hero-logo,
+    .hero img.hero-logo,
+    .hero img.home-hero-logo {
+        width:180px !important;
+        height:180px !important;
+        max-width:180px !important;
+        max-height:180px !important;
+        margin-bottom:1.05rem !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .page-logo,
+    .hero-icon,
+    .aetheros-fixed-hero-icon,
+    .hero-logo,
+    .home-hero-logo,
+    .hero img.hero-logo,
+    .hero img.home-hero-logo {
+        width:142px !important;
+        height:142px !important;
+        max-width:142px !important;
+        max-height:142px !important;
+        margin-bottom:0.85rem !important;
+    }
+}
+/* AETHEROS HERO LOGO 220PX UNIFY END */
+
+
+/* AETHEROS HOMEPAGE HERO LOGO ALIGNMENT START */
+.home-hero-logo,
+.hero-logo {
+    position: relative !important;
+    top: -32px !important;
+}
+/* AETHEROS HOMEPAGE HERO LOGO ALIGNMENT END */
+
+/* AETHEROS FINAL CONTACT BANNER MATCH START */
+body.contact-page .page-hero {
+    padding: 86px 0 50px !important;
+    text-align: center !important;
+    border-bottom: 1px solid var(--line) !important;
+    background: radial-gradient(circle at top,rgba(78,163,255,.12),transparent 55%) !important;
+    min-height: auto !important;
+    display: block !important;
+    place-items: unset !important;
+}
+
+body.contact-page .page-hero .wrap {
+    width: min(calc(100% - 32px), var(--max)) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    transform: none !important;
+}
+
+body.contact-page .page-hero .hero-icon,
+body.contact-page .page-hero .aetheros-fixed-hero-icon,
+body.contact-page .page-hero img[alt="Contact icon"] {
+    width: 220px !important;
+    height: 220px !important;
+    max-width: 220px !important;
+    max-height: 220px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 auto 1.35rem auto !important;
+    transform: none !important;
+}
+
+body.contact-page .page-hero .eyebrow {
+    color: var(--cyan) !important;
+    font-weight: 800 !important;
+    letter-spacing: .18em !important;
+    text-transform: uppercase !important;
+    font-size: .8rem !important;
+    margin: 0 0 .8rem 0 !important;
+}
+
+body.contact-page .page-hero h1 {
+    font-size: clamp(2.3rem,6vw,5.1rem) !important;
+    line-height: 1.04 !important;
+    margin: .3rem 0 1rem !important;
+    letter-spacing: .05em !important;
+    text-transform: uppercase !important;
+}
+
+body.contact-page .page-hero .lead {
+    font-size: clamp(1.08rem,2vw,1.35rem) !important;
+    color: var(--soft) !important;
+    max-width: 820px !important;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 900px) {
+    body.contact-page .page-hero .hero-icon,
+    body.contact-page .page-hero .aetheros-fixed-hero-icon,
+    body.contact-page .page-hero img[alt="Contact icon"] {
+        width: 180px !important;
+        height: 180px !important;
+        max-width: 180px !important;
+        max-height: 180px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    body.contact-page .page-hero .hero-icon,
+    body.contact-page .page-hero .aetheros-fixed-hero-icon,
+    body.contact-page .page-hero img[alt="Contact icon"] {
+        width: 142px !important;
+        height: 142px !important;
+        max-width: 142px !important;
+        max-height: 142px !important;
+    }
+}
+/* AETHEROS FINAL CONTACT BANNER MATCH END */
+
+/* AETHEROS FINAL FIXED HEADER SYSTEM START */
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    margin: 0 !important;
+    padding-top: 82px !important;
+    overflow-x: hidden !important;
+}
+
+.aetheros-site-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 2147483000 !important;
+
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 82px !important;
+    min-height: 82px !important;
+    max-height: 82px !important;
+
+    margin: 0 !important;
+    padding: 0 1.45rem !important;
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    gap: 1rem !important;
+
+    background: rgba(3, 8, 20, 0.965) !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(120,180,255,0.18) !important;
+
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+
+    transform: none !important;
+    contain: none !important;
+}
+
+.aetheros-brand {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex: 0 0 auto !important;
+
+    height: 82px !important;
+    min-height: 82px !important;
+    max-height: 82px !important;
+
+    gap: 0.75rem !important;
+    min-width: 0 !important;
+    max-width: 42vw !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: inherit !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.aetheros-brand-logo {
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    min-height: 54px !important;
+    max-width: 54px !important;
+    max-height: 54px !important;
+
+    object-fit: contain !important;
+    display: block !important;
+    flex: 0 0 auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.aetheros-brand-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
+    min-width: 0 !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    line-height: 1.08 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.aetheros-brand-text strong {
+    display: block !important;
+    color: #ffffff !important;
+
+    font-size: 1.15rem !important;
+    font-weight: 800 !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.02em !important;
+    text-transform: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.aetheros-brand-text small {
+    display: block !important;
+    color: #b8c1d1 !important;
+
+    font-size: 0.82rem !important;
+    font-weight: 400 !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+
+    margin: 0.12rem 0 0 0 !important;
+    padding: 0 !important;
+}
+
+.aetheros-icon-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    flex: 1 1 auto !important;
+
+    height: 82px !important;
+    min-height: 82px !important;
+    max-height: 82px !important;
+
+    min-width: 0 !important;
+    gap: 0.55rem !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+}
+
+.aetheros-icon-nav::-webkit-scrollbar {
+    display: none !important;
+}
+
+.aetheros-nav-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 auto !important;
+
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    max-width: 44px !important;
+    max-height: 44px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: inherit !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 999px !important;
+}
+
+.aetheros-nav-link img {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+    max-width: 38px !important;
+    max-height: 38px !important;
+
+    object-fit: contain !important;
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    filter: drop-shadow(0 0 8px rgba(95,210,255,0.30));
+}
+
+body > .topbar:not(.aetheros-site-header),
+body > .site-header:not(.aetheros-site-header),
+body > header.topbar:not(.aetheros-site-header),
+body > header.site-header:not(.aetheros-site-header) {
+    display: none !important;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-top: 68px !important;
+    }
+
+    .aetheros-site-header {
+        height: 68px !important;
+        min-height: 68px !important;
+        max-height: 68px !important;
+        padding: 0 0.75rem !important;
+        gap: 0.45rem !important;
+    }
+
+    .aetheros-brand {
+        height: 68px !important;
+        min-height: 68px !important;
+        max-height: 68px !important;
+        gap: 0.45rem !important;
+        max-width: 34vw !important;
+    }
+
+    .aetheros-brand-logo {
+        width: 42px !important;
+        height: 42px !important;
+        min-width: 42px !important;
+        min-height: 42px !important;
+        max-width: 42px !important;
+        max-height: 42px !important;
+    }
+
+    .aetheros-brand-text strong {
+        font-size: 0.86rem !important;
+    }
+
+    .aetheros-brand-text small {
+        font-size: 0.64rem !important;
+    }
+
+    .aetheros-icon-nav {
+        height: 68px !important;
+        min-height: 68px !important;
+        max-height: 68px !important;
+        gap: 0.25rem !important;
+    }
+
+    .aetheros-nav-link {
+        width: 34px !important;
+        height: 34px !important;
+        min-width: 34px !important;
+        min-height: 34px !important;
+        max-width: 34px !important;
+        max-height: 34px !important;
+    }
+
+    .aetheros-nav-link img {
+        width: 30px !important;
+        height: 30px !important;
+        min-width: 30px !important;
+        min-height: 30px !important;
+        max-width: 30px !important;
+        max-height: 30px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .aetheros-brand-text {
+        display: none !important;
+    }
+
+    .aetheros-brand {
+        max-width: none !important;
+    }
+
+    .aetheros-brand-logo {
+        width: 40px !important;
+        height: 40px !important;
+        min-width: 40px !important;
+        min-height: 40px !important;
+        max-width: 40px !important;
+        max-height: 40px !important;
+    }
+
+    .aetheros-nav-link {
+        width: 31px !important;
+        height: 31px !important;
+        min-width: 31px !important;
+        min-height: 31px !important;
+        max-width: 31px !important;
+        max-height: 31px !important;
+    }
+
+    .aetheros-nav-link img {
+        width: 28px !important;
+        height: 28px !important;
+        min-width: 28px !important;
+        min-height: 28px !important;
+        max-width: 28px !important;
+        max-height: 28px !important;
+    }
+}
+/* AETHEROS FINAL FIXED HEADER SYSTEM END */
+

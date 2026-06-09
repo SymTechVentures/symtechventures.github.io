@@ -294,3 +294,156 @@ section,
 }
 /* AETHEROS_HARD_PANEL_GLASS_OVERRIDE_END */
 
+/* AETHEROS HERO LOGO 220PX UNIFY START */
+.page-logo,
+.hero-icon,
+.aetheros-fixed-hero-icon {
+    width:220px !important;
+    height:220px !important;
+    max-width:220px !important;
+    max-height:220px !important;
+    object-fit:contain !important;
+    display:block !important;
+    margin:0 auto 1.35rem auto !important;
+    filter:drop-shadow(0 0 24px rgba(95,210,255,0.34));
+}
+
+.hero-logo,
+.home-hero-logo,
+.hero img.hero-logo,
+.hero img.home-hero-logo {
+    width:220px !important;
+    height:220px !important;
+    max-width:220px !important;
+    max-height:220px !important;
+    object-fit:contain !important;
+    display:block !important;
+    margin:0 auto 1.35rem auto !important;
+}
+
+.aetheros-fixed-hero-icon[alt*="Divisions"],
+.hero-icon[alt*="Divisions"],
+img[alt="Divisions icon"] {
+    transform:scale(1.05) !important;
+}
+
+@media (max-width: 900px) {
+    .page-logo,
+    .hero-icon,
+    .aetheros-fixed-hero-icon,
+    .hero-logo,
+    .home-hero-logo,
+    .hero img.hero-logo,
+    .hero img.home-hero-logo {
+        width:180px !important;
+        height:180px !important;
+        max-width:180px !important;
+        max-height:180px !important;
+        margin-bottom:1.05rem !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .page-logo,
+    .hero-icon,
+    .aetheros-fixed-hero-icon,
+    .hero-logo,
+    .home-hero-logo,
+    .hero img.hero-logo,
+    .hero img.home-hero-logo {
+        width:142px !important;
+        height:142px !important;
+        max-width:142px !important;
+        max-height:142px !important;
+        margin-bottom:0.85rem !important;
+    }
+}
+/* AETHEROS HERO LOGO 220PX UNIFY END */
+
+
+/* AETHEROS HOMEPAGE HERO LOGO ALIGNMENT START */
+.home-hero-logo,
+.hero-logo {
+    position: relative !important;
+    top: -32px !important;
+}
+/* AETHEROS HOMEPAGE HERO LOGO ALIGNMENT END */
+
+/* AETHEROS FINAL CONTACT BANNER MATCH START */
+body.contact-page .page-hero {
+    padding: 86px 0 50px !important;
+    text-align: center !important;
+    border-bottom: 1px solid var(--line) !important;
+    background: radial-gradient(circle at top,rgba(78,163,255,.12),transparent 55%) !important;
+    min-height: auto !important;
+    display: block !important;
+    place-items: unset !important;
+}
+
+body.contact-page .page-hero .wrap {
+    width: min(calc(100% - 32px), var(--max)) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    transform: none !important;
+}
+
+body.contact-page .page-hero .hero-icon,
+body.contact-page .page-hero .aetheros-fixed-hero-icon,
+body.contact-page .page-hero img[alt="Contact icon"] {
+    width: 220px !important;
+    height: 220px !important;
+    max-width: 220px !important;
+    max-height: 220px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 auto 1.35rem auto !important;
+    transform: none !important;
+}
+
+body.contact-page .page-hero .eyebrow {
+    color: var(--cyan) !important;
+    font-weight: 800 !important;
+    letter-spacing: .18em !important;
+    text-transform: uppercase !important;
+    font-size: .8rem !important;
+    margin: 0 0 .8rem 0 !important;
+}
+
+body.contact-page .page-hero h1 {
+    font-size: clamp(2.3rem,6vw,5.1rem) !important;
+    line-height: 1.04 !important;
+    margin: .3rem 0 1rem !important;
+    letter-spacing: .05em !important;
+    text-transform: uppercase !important;
+}
+
+body.contact-page .page-hero .lead {
+    font-size: clamp(1.08rem,2vw,1.35rem) !important;
+    color: var(--soft) !important;
+    max-width: 820px !important;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 900px) {
+    body.contact-page .page-hero .hero-icon,
+    body.contact-page .page-hero .aetheros-fixed-hero-icon,
+    body.contact-page .page-hero img[alt="Contact icon"] {
+        width: 180px !important;
+        height: 180px !important;
+        max-width: 180px !important;
+        max-height: 180px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    body.contact-page .page-hero .hero-icon,
+    body.contact-page .page-hero .aetheros-fixed-hero-icon,
+    body.contact-page .page-hero img[alt="Contact icon"] {
+        width: 142px !important;
+        height: 142px !important;
+        max-width: 142px !important;
+        max-height: 142px !important;
+    }
+}
+/* AETHEROS FINAL CONTACT BANNER MATCH END */
+
