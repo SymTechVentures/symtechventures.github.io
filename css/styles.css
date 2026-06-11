@@ -1173,21 +1173,816 @@ body > header.site-header:not(.aetheros-site-header) {
 }
 /* AETHEROS FINAL FIXED HEADER SYSTEM END */
 
-/* AETHEROS REMOVE HOME ICON NAV REBALANCE START */
-.aetheros-icon-nav {
-    gap: 0.7rem !important;
+/* AETHEROS LAYOUT COMPACTION WEEK1 COLOURS V3 START */
+:root {
+    --max: 1180px;
+
+    --section-pad-y: 2.65rem;
+    --section-pad-y-page: 3.2rem;
+    --section-pad-y-hero: 4rem;
+
+    --section-gap: 1.25rem;
+    --grid-gap: 1.1rem;
+    --card-pad: 1.45rem;
+
+    --week1-gold: #FFD36A;
+    --week1-gold-bg: rgba(255, 211, 106, 0.13);
+    --week1-gold-border: rgba(255, 211, 106, 0.72);
+    --week1-gold-glow: rgba(255, 211, 106, 0.18);
+
+    --week1-blue: #5FA8FF;
+    --week1-blue-bg: rgba(95, 168, 255, 0.13);
+    --week1-blue-border: rgba(95, 168, 255, 0.66);
+    --week1-blue-glow: rgba(95, 168, 255, 0.16);
+
+    --week1-purple: #A77CFF;
+    --week1-purple-bg: rgba(167, 124, 255, 0.13);
+    --week1-purple-border: rgba(167, 124, 255, 0.66);
+    --week1-purple-glow: rgba(167, 124, 255, 0.16);
+}
+
+.wrap,
+.container {
+    width: min(calc(100% - 32px), var(--max)) !important;
+}
+
+section {
+    padding-top: var(--section-pad-y) !important;
+    padding-bottom: var(--section-pad-y) !important;
+}
+
+main > section + section {
+    padding-top: 2.15rem !important;
+}
+
+.page-hero,
+section.page-hero {
+    padding-top: var(--section-pad-y-hero) !important;
+    padding-bottom: 2.95rem !important;
+}
+
+.hero,
+.home-hero {
+    min-height: 500px !important;
+}
+
+.hero .inner,
+.home-hero .inner,
+.hero .wrap,
+.home-hero .wrap {
+    padding-top: 3.1rem !important;
+    padding-bottom: 3.1rem !important;
+}
+
+.hero-logo,
+.home-hero-logo,
+.page-logo,
+.hero-icon,
+.aetheros-fixed-hero-icon {
+    margin-top: 0 !important;
+    margin-bottom: 0.85rem !important;
+}
+
+.section-head {
+    margin-bottom: 1.2rem !important;
+}
+
+.section-head h2,
+.section-head h3 {
+    margin-bottom: 0.55rem !important;
+}
+
+.section-head p,
+.lead,
+.hero p {
+    max-width: 960px !important;
+}
+
+.grid,
+.cards,
+.cards-2,
+.cards-3,
+.cards-5 {
+    gap: var(--grid-gap) !important;
+}
+
+.split {
+    gap: 1.25rem !important;
+}
+
+.card,
+.panel,
+.notice,
+.glass,
+.paper-card {
+    padding: var(--card-pad) !important;
+}
+
+.card h2,
+.card h3,
+.panel h2,
+.panel h3,
+.notice h2,
+.notice h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0.65rem !important;
+}
+
+.card p,
+.panel p,
+.notice p {
+    margin-top: 0.55rem !important;
+}
+
+.card p:last-child,
+.panel p:last-child,
+.notice p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.actions,
+.hero-actions,
+.paper-actions,
+.cta-actions {
+    margin-top: 1.05rem !important;
+    gap: 0.8rem !important;
+}
+
+.banner {
+    margin-bottom: 1.1rem !important;
+}
+
+body.fellows-page .fellows-centred-midsection {
+    display: block !important;
+    text-align: center !important;
+}
+
+body.fellows-page .fellows-centred-midsection .wrap {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: stretch !important;
+    width: min(calc(100% - 32px), var(--max)) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+body.fellows-page .fellows-centred-midsection .split,
+body.fellows-page .fellows-centred-midsection .grid,
+body.fellows-page .fellows-centred-midsection .cards,
+body.fellows-page .fellows-centred-midsection .cards-2,
+body.fellows-page .fellows-centred-midsection .cards-3 {
+    display: grid !important;
+    grid-template-columns: minmax(280px, 560px) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 620px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+body.fellows-page .fellows-centred-midsection .card,
+body.fellows-page .fellows-centred-midsection .panel,
+body.fellows-page .fellows-centred-midsection .notice {
+    width: 100% !important;
+    max-width: 560px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+body.fellows-page section {
+    text-align: center;
+}
+
+/* NSRP page receives a slightly tighter rhythm because it has the densest section stack. */
+body.nsrp-page section,
+body[class*="nsrp"] section,
+.nsrp-page section {
+    padding-top: 2.25rem !important;
+    padding-bottom: 2.25rem !important;
+}
+
+body.nsrp-page .page-hero,
+body[class*="nsrp"] .page-hero,
+.nsrp-page .page-hero {
+    padding-top: 3.6rem !important;
+    padding-bottom: 2.6rem !important;
+}
+
+.nsrp-prelude-moved {
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.75rem !important;
+    text-align: center !important;
+}
+
+.nsrp-prelude-moved .wrap,
+.nsrp-prelude-moved .card,
+.nsrp-prelude-moved .panel,
+.nsrp-prelude-moved .notice {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Week 1 colour correction:
+   Gold = announcement, Blue = read online, Purple = PDF download. */
+.status-badge.complete,
+.status-badge.paper-available,
+.status-badge.first-paper,
+.badge.paper-available,
+.badge.first-paper,
+.badge:where([class*="available"]),
+[class*="badge"]:where([class*="available"]),
+[class*="status"]:where([class*="available"]),
+span:has(> strong):where(.badge, .status-badge),
+a:not([href]):has-text("FIRST PAPER AVAILABLE") {
+    color: var(--week1-gold) !important;
+    background: var(--week1-gold-bg) !important;
+    border-color: var(--week1-gold-border) !important;
+    box-shadow: 0 0 20px var(--week1-gold-glow) !important;
+}
+
+a[href*="week01_wave_particle_duality.html"],
+a[href*="week01_wave_particle_duality"][href$=".html"],
+a[href*="papers/week01_wave_particle_duality.html"],
+a[href*="week01"]:not([href*=".pdf"]) {
+    color: #eaf5ff !important;
+    background: var(--week1-blue-bg) !important;
+    border-color: var(--week1-blue-border) !important;
+    box-shadow: 0 0 20px var(--week1-blue-glow) !important;
+}
+
+a[href*="week01_wave_particle_duality.pdf"],
+a[href*="week01"][href*=".pdf"],
+a[href$=".pdf"] {
+    color: #f3ecff !important;
+    background: var(--week1-purple-bg) !important;
+    border-color: var(--week1-purple-border) !important;
+    box-shadow: 0 0 20px var(--week1-purple-glow) !important;
+}
+
+a[href*="week01_wave_particle_duality.html"]:hover,
+a[href*="week01_wave_particle_duality.pdf"]:hover,
+a[href$=".pdf"]:hover {
+    transform: translateY(-1px) !important;
+    filter: brightness(1.08) !important;
+}
+
+.footer,
+footer {
+    padding-top: 1.85rem !important;
+    padding-bottom: 1.85rem !important;
 }
 
 @media (max-width: 900px) {
-    .aetheros-icon-nav {
-        gap: 0.38rem !important;
+    :root {
+        --section-pad-y: 2.25rem;
+        --section-pad-y-page: 2.75rem;
+        --section-pad-y-hero: 3.4rem;
+        --grid-gap: 0.95rem;
+        --card-pad: 1.25rem;
+    }
+
+    .hero,
+    .home-hero {
+        min-height: 460px !important;
+    }
+
+    .hero .inner,
+    .home-hero .inner,
+    .hero .wrap,
+    .home-hero .wrap {
+        padding-top: 2.55rem !important;
+        padding-bottom: 2.55rem !important;
+    }
+
+    .split {
+        gap: 1rem !important;
+    }
+
+    body.fellows-page .fellows-centred-midsection .split {
+        grid-template-columns: 1fr !important;
     }
 }
 
 @media (max-width: 560px) {
-    .aetheros-icon-nav {
-        gap: 0.3rem !important;
+    :root {
+        --section-pad-y: 1.9rem;
+        --section-pad-y-page: 2.25rem;
+        --section-pad-y-hero: 2.85rem;
+        --grid-gap: 0.8rem;
+        --card-pad: 1.05rem;
+    }
+
+    .hero,
+    .home-hero {
+        min-height: 420px !important;
+    }
+
+    .hero .inner,
+    .home-hero .inner,
+    .hero .wrap,
+    .home-hero .wrap {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .section-head {
+        margin-bottom: 1rem !important;
+    }
+
+    .actions,
+    .hero-actions,
+    .paper-actions,
+    .cta-actions {
+        gap: 0.65rem !important;
     }
 }
-/* AETHEROS REMOVE HOME ICON NAV REBALANCE END */
+/* AETHEROS LAYOUT COMPACTION WEEK1 COLOURS V3 END */
+
+/* AETHEROS WEEK1 DIRECT HOOKS START */
+.paper-available,
+.first-paper {
+    color: var(--week1-gold) !important;
+    background: var(--week1-gold-bg) !important;
+    border-color: var(--week1-gold-border) !important;
+    box-shadow: 0 0 20px var(--week1-gold-glow) !important;
+}
+
+.read-online-cta,
+.week1-blue {
+    color: #eaf5ff !important;
+    background: var(--week1-blue-bg) !important;
+    border-color: var(--week1-blue-border) !important;
+    box-shadow: 0 0 20px var(--week1-blue-glow) !important;
+}
+
+.download-pdf-cta,
+.week1-purple {
+    color: #f3ecff !important;
+    background: var(--week1-purple-bg) !important;
+    border-color: var(--week1-purple-border) !important;
+    box-shadow: 0 0 20px var(--week1-purple-glow) !important;
+}
+/* AETHEROS WEEK1 DIRECT HOOKS END */
+
+/* AETHEROS CONTACT ENQUIRY PAGE REFLOW START */
+.contact-flow-section {
+    padding-top: 2.25rem !important;
+    padding-bottom: 2.75rem !important;
+}
+
+.contact-flow-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.15rem !important;
+    max-width: 980px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.contact-flow-card,
+.contact-final-card,
+.enquiry-form-card {
+    text-align: center !important;
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.contact-flow-card p,
+.enquiry-form-card p {
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.contact-enquiry-actions,
+.enquiry-actions {
+    justify-content: center !important;
+    margin-top: 1.15rem !important;
+}
+
+.contact-enquiry-button,
+.enquiry-submit-button {
+    color: #eaf5ff !important;
+    background: rgba(95, 168, 255, 0.13) !important;
+    border-color: rgba(95, 168, 255, 0.66) !important;
+    box-shadow: 0 0 20px rgba(95, 168, 255, 0.16) !important;
+}
+
+.enquiry-back-button {
+    color: #f3ecff !important;
+    background: rgba(167, 124, 255, 0.13) !important;
+    border-color: rgba(167, 124, 255, 0.58) !important;
+}
+
+.enquiry-form-section {
+    padding-top: 2.25rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.symtech-enquiry-form {
+    display: grid !important;
+    gap: 1rem !important;
+    max-width: 760px !important;
+    margin: 1.5rem auto 0 auto !important;
+    text-align: left !important;
+}
+
+.symtech-enquiry-form label {
+    display: grid !important;
+    gap: 0.45rem !important;
+    color: rgba(235, 242, 255, 0.92) !important;
+    font-weight: 700 !important;
+}
+
+.symtech-enquiry-form input,
+.symtech-enquiry-form select,
+.symtech-enquiry-form textarea {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(95, 168, 255, 0.38) !important;
+    background: rgba(5, 10, 22, 0.72) !important;
+    color: #eef5ff !important;
+    padding: 0.85rem 0.95rem !important;
+    font: inherit !important;
+    outline: none !important;
+}
+
+.symtech-enquiry-form input:focus,
+.symtech-enquiry-form select:focus,
+.symtech-enquiry-form textarea:focus {
+    border-color: rgba(95, 168, 255, 0.82) !important;
+    box-shadow: 0 0 0 3px rgba(95, 168, 255, 0.14) !important;
+}
+
+.enquiry-intro,
+.contact-note {
+    opacity: 0.82 !important;
+    font-size: 0.96rem !important;
+}
+
+@media (max-width: 640px) {
+    .symtech-enquiry-form {
+        gap: 0.85rem !important;
+    }
+
+    .enquiry-actions {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+}
+/* AETHEROS CONTACT ENQUIRY PAGE REFLOW END */
+
+/* AETHEROS REAL ENQUIRY FORM SUBMIT START */
+.enquiry-form-card {
+    text-align: center !important;
+}
+
+.symtech-enquiry-form {
+    display: grid !important;
+    gap: 1rem !important;
+    max-width: 760px !important;
+    margin: 1.5rem auto 0 auto !important;
+    text-align: left !important;
+}
+
+.symtech-enquiry-form label {
+    display: grid !important;
+    gap: 0.45rem !important;
+}
+
+.symtech-enquiry-form textarea {
+    margin-bottom: 0.3rem !important;
+}
+
+.enquiry-send-row {
+    justify-content: center !important;
+    margin-top: 0.35rem !important;
+    margin-bottom: 0.55rem !important;
+}
+
+.enquiry-submit-button {
+    min-width: 150px !important;
+    color: #eaf5ff !important;
+    background: rgba(95, 168, 255, 0.13) !important;
+    border-color: rgba(95, 168, 255, 0.72) !important;
+    box-shadow: 0 0 20px rgba(95, 168, 255, 0.16) !important;
+}
+
+.enquiry-secondary-actions {
+    justify-content: center !important;
+    margin-top: 0.1rem !important;
+}
+
+.enquiry-back-button {
+    color: #f3ecff !important;
+    background: rgba(167, 124, 255, 0.13) !important;
+    border-color: rgba(167, 124, 255, 0.58) !important;
+}
+
+.enquiry-submit-button:hover,
+.enquiry-back-button:hover {
+    transform: translateY(-1px) !important;
+    filter: brightness(1.08) !important;
+}
+/* AETHEROS REAL ENQUIRY FORM SUBMIT END */
+
+/* AETHEROS CTA STANDARDISATION START */
+:root {
+    --cta-primary-a: #5fa8ff;
+    --cta-primary-b: #8d6dff;
+    --cta-primary-text: #ffffff;
+    --cta-secondary-text: #f3ecff;
+    --cta-secondary-border: rgba(167, 124, 255, 0.66);
+    --cta-secondary-bg: rgba(167, 124, 255, 0.13);
+    --cta-secondary-glow: rgba(167, 124, 255, 0.18);
+    --cta-link: #5ff0ff;
+    --cta-link-glow: rgba(95, 240, 255, 0.28);
+}
+
+a.button,
+button.button,
+.btn-primary,
+.symtech-cta-primary,
+.contact-enquiry-button,
+.enquiry-submit-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 46px !important;
+    min-width: 168px !important;
+    padding: 0.78rem 1.55rem !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(120, 178, 255, 0.72) !important;
+    background: linear-gradient(135deg, var(--cta-primary-a), var(--cta-primary-b)) !important;
+    color: var(--cta-primary-text) !important;
+    text-decoration: none !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.01em !important;
+    line-height: 1.1 !important;
+    box-shadow: 0 0 22px rgba(95, 168, 255, 0.22), inset 0 0 18px rgba(255, 255, 255, 0.08) !important;
+    cursor: pointer !important;
+    transition: transform 0.18s ease, filter 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+a.button:hover,
+button.button:hover,
+.btn-primary:hover,
+.symtech-cta-primary:hover,
+.contact-enquiry-button:hover,
+.enquiry-submit-button:hover {
+    transform: translateY(-1px) !important;
+    filter: brightness(1.08) !important;
+    box-shadow: 0 0 28px rgba(95, 168, 255, 0.32), inset 0 0 20px rgba(255, 255, 255, 0.1) !important;
+}
+
+a.button.secondary,
+button.button.secondary,
+.btn-secondary,
+.symtech-cta-secondary,
+.enquiry-back-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 44px !important;
+    min-width: 160px !important;
+    padding: 0.72rem 1.45rem !important;
+    border-radius: 999px !important;
+    border: 1px solid var(--cta-secondary-border) !important;
+    background: var(--cta-secondary-bg) !important;
+    color: var(--cta-secondary-text) !important;
+    text-decoration: none !important;
+    font-weight: 800 !important;
+    line-height: 1.1 !important;
+    box-shadow: 0 0 20px var(--cta-secondary-glow), inset 0 0 14px rgba(255, 255, 255, 0.05) !important;
+    cursor: pointer !important;
+    transition: transform 0.18s ease, filter 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+a.button.secondary:hover,
+button.button.secondary:hover,
+.btn-secondary:hover,
+.symtech-cta-secondary:hover,
+.enquiry-back-button:hover {
+    transform: translateY(-1px) !important;
+    filter: brightness(1.08) !important;
+    box-shadow: 0 0 26px rgba(167, 124, 255, 0.26), inset 0 0 16px rgba(255, 255, 255, 0.08) !important;
+}
+
+.link-primary,
+.symtech-text-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+    color: var(--cta-link) !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.02em !important;
+    padding: 0.2rem 0 !important;
+    transition: transform 0.18s ease, text-shadow 0.18s ease, color 0.18s ease !important;
+}
+
+.link-primary:hover,
+.symtech-text-link:hover {
+    transform: translateX(2px) !important;
+    text-shadow: 0 0 14px var(--cta-link-glow) !important;
+    color: #a6f7ff !important;
+}
+
+.enquiry-send-row,
+.enquiry-secondary-actions,
+.contact-enquiry-actions,
+.actions,
+.hero-actions {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.85rem !important;
+    flex-wrap: wrap !important;
+}
+
+.enquiry-send-row {
+    margin-top: 0.85rem !important;
+    margin-bottom: 0.35rem !important;
+}
+
+.enquiry-secondary-actions {
+    margin-top: 0.3rem !important;
+}
+
+@media (max-width: 560px) {
+    a.button,
+    button.button,
+    .btn-primary,
+    .symtech-cta-primary,
+    .btn-secondary,
+    .symtech-cta-secondary {
+        width: min(100%, 280px) !important;
+    }
+
+    .actions,
+    .hero-actions,
+    .enquiry-actions,
+    .enquiry-secondary-actions {
+        flex-direction: column !important;
+    }
+}
+/* AETHEROS CTA STANDARDISATION END */
+
+/* AETHEROS PAPER PAGE LINKED IMAGE REBUILD START */
+.paper-content-section {
+    padding-top: 2.4rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.paper-article {
+    max-width: 920px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.72 !important;
+}
+
+.paper-article h1,
+.paper-article h2,
+.paper-article h3,
+.paper-article h4 {
+    margin-top: 2.1rem !important;
+    margin-bottom: 0.85rem !important;
+}
+
+.paper-article h1:first-child,
+.paper-article h2:first-child {
+    margin-top: 0 !important;
+}
+
+.paper-article p {
+    margin-top: 0.85rem !important;
+    margin-bottom: 0.85rem !important;
+}
+
+.paper-figure {
+    margin: 1.8rem auto !important;
+    text-align: center !important;
+}
+
+.paper-figure img {
+    width: min(100%, 860px) !important;
+    height: auto !important;
+    border-radius: 18px !important;
+    border: 1px solid rgba(95, 168, 255, 0.22) !important;
+    box-shadow: 0 0 30px rgba(95, 168, 255, 0.10) !important;
+}
+
+.paper-figure figcaption {
+    margin-top: 0.7rem !important;
+    color: rgba(225, 235, 255, 0.72) !important;
+    font-style: italic !important;
+    font-size: 0.95rem !important;
+}
+
+@media (max-width: 700px) {
+    .paper-article {
+        line-height: 1.62 !important;
+    }
+
+    .paper-figure {
+        margin: 1.35rem auto !important;
+    }
+}
+/* AETHEROS PAPER PAGE LINKED IMAGE REBUILD END */
+
+/* AETHEROS HERO KICKER ALIGNMENT START */
+.hero,
+.home-hero,
+.page-hero,
+.hero .wrap,
+.home-hero .wrap,
+.page-hero .wrap,
+.hero .inner,
+.home-hero .inner,
+.page-hero .inner {
+    text-align: center !important;
+}
+
+.kicker,
+.hero-kicker,
+.eyebrow,
+.hero-eyebrow,
+.page-kicker,
+.home-kicker,
+.home-hero .kicker,
+.hero .kicker,
+.page-hero .kicker {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.home-hero .kicker,
+.hero .kicker,
+.page-hero .kicker {
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+}
+
+.hero h1,
+.home-hero h1,
+.page-hero h1,
+.hero .lead,
+.home-hero .lead,
+.page-hero .lead,
+.hero p,
+.home-hero p,
+.page-hero p {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hero-actions,
+.hero .actions,
+.home-hero .actions,
+.page-hero .actions {
+    justify-content: center !important;
+}
+/* AETHEROS HERO KICKER ALIGNMENT END */
+
+/* AETHEROS CONTACT ENQUIRY KICKER FIX START */
+.page-hero .kicker,
+.home-hero .kicker,
+.hero .kicker,
+.contact-hero .kicker,
+.enquiry-hero .kicker,
+body.contact-page .page-hero .kicker,
+body.enquiry-page .page-hero .kicker,
+body.contact-page .kicker,
+body.enquiry-page .kicker {
+    display: block !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    color: #5ff3ff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.22em !important;
+    font-weight: 800 !important;
+    font-size: clamp(0.78rem, 1.1vw, 1rem) !important;
+    line-height: 1.35 !important;
+    text-shadow: 0 0 18px rgba(95, 243, 255, 0.38) !important;
+}
+/* AETHEROS CONTACT ENQUIRY KICKER FIX END */
 
