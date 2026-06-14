@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="UTF-8">
@@ -41,6 +41,31 @@
     .symmetria-cards-section .cards-3 {
       grid-template-columns: 1fr;
     }
+  }
+</style>
+<style>
+  .symmetria-no-shade {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  .symmetria-no-shade::before,
+  .symmetria-no-shade::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  .symmetria-no-shade > .wrap {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  .symmetria-no-shade .grid.cards-3 {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
   }
 </style>
 </head>
@@ -99,7 +124,7 @@
     </div>
   </section>
 
-  <section class="symmetria-compact-section symmetria-cards-section">
+  <section class="symmetria-compact-section symmetria-cards-section symmetria-no-shade">
     <div class="wrap">
       <div class="grid cards-3">
         <article class="card">
