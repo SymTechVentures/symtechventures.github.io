@@ -1986,3 +1986,85 @@ body.enquiry-page .kicker {
 }
 /* AETHEROS CONTACT ENQUIRY KICKER FIX END */
 
+
+/* AetherOS index SEO/layout rhythm patch v1 */
+main > .home-section {
+  padding-block: clamp(3.5rem, 7vw, 6rem);
+}
+
+main > .home-section + .home-section {
+  margin-top: 0;
+}
+
+.home-section .section-head,
+.home-section .panel,
+.home-section .notice {
+  margin-inline: auto;
+}
+
+.home-purpose .section-head,
+.home-ecosystem .section-head {
+  max-width: 860px;
+  text-align: center;
+}
+
+.home-founder .panel,
+.home-status .panel,
+.home-contact .notice {
+  max-width: 920px;
+}
+
+.home-ecosystem .grid {
+  margin-top: clamp(1.75rem, 4vw, 3rem);
+}
+
+.home-status .split {
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+/* AetherOS homepage hero image reorder patch */
+.homepage-hero-image-section {
+  padding: 2.75rem 0 2.25rem;
+}
+
+.homepage-hero-image {
+  display: block;
+  width: min(100%, 1180px);
+  margin: 0 auto;
+  border-radius: 26px;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.38);
+  object-fit: cover;
+}
+
+.homepage-section {
+  padding: 3.25rem 0;
+}
+
+.homepage-section .section-head {
+  margin-bottom: 2rem;
+}
+
+.homepage-founder-section,
+.homepage-status-section {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.homepage-contact-section {
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 760px) {
+  .homepage-hero-image-section {
+    padding: 1.75rem 0 1.5rem;
+  }
+
+  .homepage-section {
+    padding: 2.25rem 0;
+  }
+
+  .homepage-hero-image {
+    border-radius: 18px;
+  }
+}
