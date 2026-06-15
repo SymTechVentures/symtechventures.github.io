@@ -2068,3 +2068,76 @@ main > .home-section + .home-section {
     border-radius: 18px;
   }
 }
+
+/* AETHEROS_STANDARD_VISUAL_HERO_RHYTHM_START */
+.page-hero {
+  padding-bottom: 2.75rem !important;
+}
+
+.page-hero + .page-visual-hero {
+  padding-top: 0 !important;
+}
+
+.page-visual-hero {
+  padding-top: 0 !important;
+  padding-bottom: 3rem !important;
+  margin: 0 !important;
+  background: transparent !important;
+}
+
+.page-visual-hero .wrap {
+  width: min(calc(100% - 32px), var(--max)) !important;
+  max-width: 1120px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hero-image-frame {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  border-radius: 28px !important;
+  border: 1px solid rgba(135, 206, 250, 0.24) !important;
+  background: rgba(5, 16, 32, 0.62) !important;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42), 0 0 42px rgba(71, 170, 255, 0.16) !important;
+  aspect-ratio: 16 / 9 !important;
+}
+
+.hero-image-frame img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  aspect-ratio: auto !important;
+}
+
+.page-visual-hero + section {
+  padding-top: 0 !important;
+}
+
+body.fellows-page .fellows-centred-midsection {
+  padding-top: 0 !important;
+}
+
+body.fellows-page .fellows-centred-midsection + .page-visual-hero {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  .page-hero {
+    padding-bottom: 2rem !important;
+  }
+
+  .page-visual-hero {
+    padding-bottom: 2.2rem !important;
+  }
+
+  .hero-image-frame {
+    border-radius: 18px !important;
+  }
+}
+/* AETHEROS_STANDARD_VISUAL_HERO_RHYTHM_END */
+
