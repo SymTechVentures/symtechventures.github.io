@@ -2141,3 +2141,21 @@ body.fellows-page .fellows-centred-midsection + .page-visual-hero {
 }
 /* AETHEROS_STANDARD_VISUAL_HERO_RHYTHM_END */
 
+/* AETHEROS_CONTACT_HERO_DIVIDER_FIX_START */
+.contact-page .contact-hero,
+.contact-page .page-hero.contact-hero {
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+}
+
+.contact-page .contact-hero::after,
+.contact-page .page-hero.contact-hero::after {
+    display: none !important;
+    content: none !important;
+}
+
+.contact-page .contact-flow-section {
+    border-top: 0 !important;
+}
+/* AETHEROS_CONTACT_HERO_DIVIDER_FIX_END */
+
