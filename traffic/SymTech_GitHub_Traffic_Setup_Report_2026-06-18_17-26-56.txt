@@ -1,0 +1,26 @@
+﻿SymTech Ventures - GitHub Traffic Tracker Setup Report
+Generated: 2026-06-18 17:26:56
+
+Repository:
+SymTechVentures/symtechventures.github.io
+
+GitHub Traffic Page:
+https://github.com/SymTechVentures/symtechventures.github.io/graphs/traffic
+
+Tracker CSV:
+C:\Users\Geoff\OneDrive\Documents\Projects\SymTech Ventures\Website_Traffic\SymTech_GitHub_Pages_Traffic_Log.csv
+
+Status:
+GitHub Pages traffic requires no website script, no code injection, and no deployment change.
+GitHub automatically provides repository traffic under:
+Repository -> Insights -> Traffic
+
+Recommended weekly workflow:
+1. Open the GitHub Traffic page.
+2. Copy the latest values for views, unique visitors, top pages, and referrers.
+3. Add one new row to the CSV tracker.
+4. Repeat weekly so we keep long-term records beyond GitHub's limited history window.
+
+Notes:
+- This does not add Google Analytics, Cloudflare Analytics, cookies, or tracking scripts.
+- This is the cleanest privacy-first option for the current SymTech website stage.
