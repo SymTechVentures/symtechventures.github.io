@@ -1,249 +1,258 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.symtechventures.com/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-01.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-02.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-03.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-04.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-05.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-06.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-07.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-08.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-09.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/articles/divisions/divisions-paper-10.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-01.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-02.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-03.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-04.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-05.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-06.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-07.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-08.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-09.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-10.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-11.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/nsrp/nsrp-paper-12.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-02.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-03.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-04.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-05.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-06.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-07.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-08.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-09.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-10.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-11.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-12.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/contact.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/divisions.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-21</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.symtechventures.com/pages/divisions-discussion-series.html</loc>
+    <lastmod>2026-06-22</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/enquiry.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/enquiry-thanks.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/founding-fellows.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/nsrp.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-22</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/nsrp-prelude-series.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-22</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symcore.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symcraft.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symcura.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symlogic.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symmetria.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symmetria-discussion-series.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-22</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/pages/symspace.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.symtechventures.com/downloads/nsrp/nsrp-paper-01.pdf</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.55</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/downloads/symmetria/symmetria-paper-01.pdf</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.55</priority>
+    <loc>https://www.symtechventures.com/README.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <priority>0.65</priority>
   </url>
 </urlset>
