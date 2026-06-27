@@ -1,0 +1,2 @@
+﻿snapshot_date,period,total_clones,unique_cloners,total_views,unique_visitors,source,notes
+2026-06-27,last_14_days,210,67,15,1,GitHub Insights Traffic,"Manual snapshot from GitHub repository Insights > Traffic page. Clone figures probably include owner/development activity; visitor figures are the useful public-interest baseline."

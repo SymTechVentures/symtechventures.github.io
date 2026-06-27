@@ -1,385 +1,148 @@
-<!DOCTYPE html>
-<html>
+﻿<!--
+AETHEROS ARTICLE TEMPLATE
+Status: Published
+Series: SYMMETRIA Discussion Series
+Paper: 01
+Category: I - The Need for a Unified Framework
+Title: Why Physics Still Needs a Unified Framework
+Purpose: Introduces why modern physics still leaves room for deeper unifying frameworks and establishes SYMMETRIA as an exploratory research direction.
+Converted-To-Website-Article: 20260627_091013
+Notes: Converted from exported document format to standard SymTech website article format. Preserve this metadata block.
+-->
+<!doctype html>
+<html lang="en-GB">
 <head>
-<meta charset="UTF-8">
-<title>SYMMETRIA Paper 1 | Why Physics Still Needs a Unified Framework</title>
-<style>
-
-:root { color-scheme: dark; }
-
-html, body {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-    background: #212121 !important;
-    color: #f5f5f5 !important;
-    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-    font-size: 16px !important;
-    line-height: 1.75 !important;
-    margin: 0 !important;
-    padding: 10px !important;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SYMMETRIA Paper 1 - Why Physics Still Needs Unity</title>
+  <meta name="description" content="Paper 1 introduces why physics still needs deeper unifying frameworks and presents SYMMETRIA as an exploratory direction.">
+  <link rel="canonical" href="https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SYMMETRIA Paper 1 - Why Physics Still Needs Unity">
+  <meta property="og:description" content="Paper 1 introduces why physics still needs deeper unifying frameworks and presents SYMMETRIA as an exploratory direction.">
+  <meta property="og:url" content="https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html">
+  <meta property="og:image" content="https://www.symtechventures.com/images/logos/symtech.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SYMMETRIA Paper 1 - Why Physics Still Needs Unity">
+  <meta name="twitter:description" content="Paper 1 introduces why physics still needs deeper unifying frameworks and presents SYMMETRIA as an exploratory direction.">
+  <meta name="twitter:image" content="https://www.symtechventures.com/images/logos/symtech.webp">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <style id="aetheros-placeholder-teaser-css">
+.next-paper-teaser .notice{
+  text-align:center;
 }
-
-body {
-    max-width: 1000px !important;
-    margin: 0 auto !important;
-    padding: 24px !important;
+.next-paper-teaser .eyebrow{
+  margin-bottom:0.5rem;
 }
-
-.doc-subtitle {
-    text-align: center !important;
-    color: #d0d0d0 !important;
-    font-size: 1.25em !important;
-    font-style: italic !important;
-    margin: 0.2em 0 1.2em 0 !important;
-}
-
-.doc-series,
-.doc-author,
-.doc-date {
-    text-align: center !important;
-    color: #cfcfcf !important;
-    margin: 0.5em 0 !important;
-}
-
-.figure-caption {
-    color: #c8c8c8 !important;
-    font-style: italic !important;
-    text-align: justify !important;
-    margin-top: -0.65em !important;
-    margin-bottom: 1.6em !important;
-}
-
-p, li, blockquote, div {
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    hyphens: auto !important;
-    -webkit-hyphens: auto !important;
-    word-break: normal !important;
-}
-
-p { margin: 0 0 1.15em 0 !important; }
-
-h1, h2, h3, h4, h5, h6 {
-    color: #ffffff !important;
-    font-weight: 600 !important;
-    line-height: 1.25 !important;
-}
-
-h1 {
-    text-align: center !important;
-    font-size: 2.4em !important;
-    line-height: 1.2 !important;
-    margin: 0.9em 0 0.8em 0 !important;
-    padding: 0 !important;
-    border-bottom: none !important;
-}
-
-h2 {
-    font-size: 1.7em !important;
-    text-align: center !important;
-    margin: 1.05em 0 1.15em 0 !important;
-    padding: 0 !important;
-    line-height: 1.2 !important;
-}
-
-h3 {
-    font-size: 1.35em !important;
-    margin: 1.5em 0 0.75em 0 !important;
-}
-
-h4 { font-size: 1.15em !important; }
-
-hr {
-    border: 0 !important;
-    border-top: 2px solid #6a6a6a !important;
-    margin: 1.6em 0 1.4em 0 !important;
-}
-
-ul, ol {
-    margin: 0.1em 0 0.8em 1.6em !important;
-    padding: 0 !important;
-}
-
-li {
-    margin-bottom: 0.15em !important;
-    font-size: 1em !important;
-    font-weight: 400 !important;
-    text-align: justify !important;
-    line-height: 1.75 !important;
-}
-
-a {
-    color: #8ab4f8 !important;
-    text-decoration: none !important;
-}
-
-a:hover { text-decoration: underline !important; }
-
-strong {
-    color: #ffffff !important;
-    font-weight: 600 !important;
-}
-
-em { color: #f0f0f0 !important; }
-
-blockquote {
-    margin: 1.2em 0 !important;
-    padding-left: 1em !important;
-    border-left: 3px solid #4a4a4a !important;
-    color: #e7e7e7 !important;
-}
-
-code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
-    background: #2f2f2f !important;
-    color: #ffffff !important;
-    padding: 0.15em 0.35em !important;
-    border-radius: 4px !important;
-    font-size: 0.95em !important;
-}
-
-pre {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
-    background: #2f2f2f !important;
-    color: #ffffff !important;
-    padding: 0.9em 1em !important;
-    border-radius: 8px !important;
-    overflow-x: auto !important;
-    line-height: 1.5 !important;
-    white-space: pre-wrap !important;
-    text-align: left !important;
-    margin: 1.2em 0 !important;
-}
-
-pre code {
-    background: transparent !important;
-    padding: 0 !important;
-}
-
-table {
-    border-collapse: collapse !important;
-    width: 100% !important;
-    margin: 1.2em 0 1.8em 0 !important;
-    background: #212121 !important;
-    page-break-inside: avoid !important;
-    break-inside: avoid !important;
-}
-
-th, td {
-    border: 1px solid #444 !important;
-    padding: 8px 10px !important;
-    vertical-align: top !important;
-    text-align: left !important;
-}
-
-th {
-    background: #2a2a2a !important;
-    color: #ffffff !important;
-}
-
-img {
-    display: block !important;
-    max-width: 100% !important;
-    height: auto !important;
-    margin: 1.5em auto !important;
-    border-radius: 6px !important;
-}
-
-@page {
-    size: A4;
-    margin: 13mm 11mm 16mm 11mm;
-    background: #212121;
-}
-
-@media print {
-    html, body {
-        background: #212121 !important;
-        color: #f5f5f5 !important;
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-    }
-
-    body {
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-        break-after: avoid !important;
-        page-break-after: avoid !important;
-        orphans: 3;
-        widows: 3;
-    }
-
-    p, ul, ol, blockquote, table, pre, img {
-        break-inside: avoid !important;
-        page-break-inside: avoid !important;
-        orphans: 3;
-        widows: 3;
-    }
-
-    li {
-        break-inside: avoid !important;
-        page-break-inside: avoid !important;
-    }
-}
-
-</style>
-  <link rel="stylesheet" href="../../css/styles.css?v=paper_format_match_v4">
-<!-- AETHEROS_PAPER_HEADER_EXACT_MARGINS_V13_START -->
-<style>
-html,
-body{
-  max-width:none !important;
-  margin:0 !important;
-  padding:0 !important;
-  overflow-x:hidden !important;
-}
-
-/* Use the normal website background/starfield from styles.css/main.js.
-   This block only protects the exported paper content from old document CSS. */
-body{
-  scroll-padding-top:96px !important;
-}
-
-/* Do not restyle the header. Let ../../css/styles.css control it. */
-body > header.aetheros-site-header{
-  display:flex !important;
-  visibility:visible !important;
-  opacity:1 !important;
-}
-
-/* Paper content margins/spec agreed before v13. */
-.aetheros-paper-shell{
-  position:relative !important;
-  z-index:2 !important;
-  max-width:1100px !important;
-  width:calc(100% - 48px) !important;
-  margin:96px auto 44px auto !important;
-  padding:0 !important;
-  box-sizing:border-box !important;
-  background:transparent !important;
-  border:0 !important;
-  border-radius:0 !important;
-  box-shadow:none !important;
-  backdrop-filter:none !important;
-  -webkit-backdrop-filter:none !important;
-  overflow:visible !important;
-}
-
-/* Keep exported content inside the agreed paper width. */
-.aetheros-paper-shell > *{
-  max-width:100% !important;
-  box-sizing:border-box !important;
-}
-
-.aetheros-paper-shell img,
-.aetheros-paper-shell p img,
-.aetheros-paper-shell figure img{
-  display:block !important;
-  max-width:100% !important;
-  width:auto !important;
-  height:auto !important;
-  margin-left:auto !important;
-  margin-right:auto !important;
-  box-sizing:border-box !important;
-}
-
-.aetheros-paper-shell table{
-  width:100% !important;
-  max-width:100% !important;
-  box-sizing:border-box !important;
-}
-
-.aetheros-paper-shell pre{
-  max-width:100% !important;
-  overflow-x:auto !important;
-  box-sizing:border-box !important;
-}
-
-/* Remove old experiment elements if any remain visually active. */
-.aetheros-starfield-layer,
-.standard-starfield,
-.aetheros-standard-starfield,
-canvas#starfield{
-  display:none !important;
-}
-
-@media (max-width:700px){
-  .aetheros-paper-shell{
-    width:calc(100% - 28px) !important;
-    margin-top:104px !important;
-  }
-}
-
-@media print{
-  body > header.aetheros-site-header{
-    display:none !important;
-  }
-
-  .aetheros-paper-shell{
-    width:100% !important;
-    max-width:none !important;
-    margin:0 !important;
-    padding:0 !important;
-  }
+.next-paper-teaser .hero-actions{
+  justify-content:center;
 }
 </style>
-<!-- AETHEROS_PAPER_HEADER_EXACT_MARGINS_V13_END -->
-<script type="application/ld+json">
+  <style id="aetheros-paper01-article-content-css">
+.symmetria-article-page .paper-content{
+  text-align:left;
+}
+.symmetria-article-page .paper-content h1,
+.symmetria-article-page .paper-content h2{
+  text-align:center;
+}
+.symmetria-article-page .paper-content h1{
+  margin-top:0;
+}
+.symmetria-article-page .paper-content p,
+.symmetria-article-page .paper-content li{
+  text-align:justify;
+}
+.symmetria-article-page .paper-content .doc-subtitle,
+.symmetria-article-page .paper-content .doc-series,
+.symmetria-article-page .paper-content .doc-author,
+.symmetria-article-page .paper-content .doc-date{
+  text-align:center;
+  color:var(--soft);
+}
+.symmetria-article-page .paper-content .doc-subtitle{
+  font-style:italic;
+  font-size:1.15rem;
+}
+.symmetria-article-page .paper-content img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin:1.35rem auto;
+  border-radius:12px;
+}
+.symmetria-article-page .paper-content .figure-caption{
+  color:var(--muted);
+  font-style:italic;
+  text-align:justify;
+  margin-top:-0.35rem;
+  margin-bottom:1.2rem;
+}
+.symmetria-article-page .paper-content table{
+  width:100%;
+  border-collapse:collapse;
+  margin:1.2rem 0;
+}
+.symmetria-article-page .paper-content th,
+.symmetria-article-page .paper-content td{
+  border:1px solid var(--line);
+  padding:0.65rem;
+  vertical-align:top;
+}
+.symmetria-article-page .paper-content hr{
+  border:0;
+  border-top:1px solid var(--line);
+  margin:1.6rem 0;
+}
+</style>
+<meta property="og:site_name" content="SymTech Ventures">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "headline": "01_why_physics_still_needs_unified_framework",
-  "description": "SymTech Ventures exploratory research paper.",
+  "headline": "SYMMETRIA Paper 1 - Why Physics Still Needs Unity",
+  "name": "SYMMETRIA Paper 1 - Why Physics Still Needs Unity",
+  "description": "Paper 1 introduces why physics still needs deeper unifying frameworks and presents SYMMETRIA as an exploratory direction.",
   "url": "https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html",
-  "author": {
-    "@type": "Person",
-    "name": "Dr Geoffrey Thomas"
-  },
   "publisher": {
     "@type": "Organization",
     "name": "SymTech Ventures",
     "url": "https://www.symtechventures.com/"
-  },
-  "dateModified": "2026-06-17"
+  }
 }
-</script>
-<meta name="description" content="SYMMETRIA Paper 1 introduces the continuing need for a unified framework in physics, including the relationship between the Standard Model, General Relativity and deeper symmetry principles.">
-<link rel="canonical" href="https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html">
-<meta property="og:type" content="article">
-<meta property="og:title" content="SYMMETRIA Paper 1 | Why Physics Still Needs a Unified Framework">
-<meta property="og:description" content="SYMMETRIA Paper 1 introduces the continuing need for a unified framework in physics, including the relationship between the Standard Model, General Relativity and deeper symmetry principles.">
-<meta property="og:url" content="https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html">
-<meta property="og:image" content="https://www.symtechventures.com/images/logos/symmetria.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SYMMETRIA Paper 1 | Why Physics Still Needs a Unified Framework">
-<meta name="twitter:description" content="SYMMETRIA Paper 1 introduces the continuing need for a unified framework in physics, including the relationship between the Standard Model, General Relativity and deeper symmetry principles.">
-<meta name="twitter:image" content="https://www.symtechventures.com/images/logos/symmetria.webp">
-    <link rel="stylesheet" href="../../styles.css">
+  </script>
 </head>
-<body>
+<body class="symmetria-article-page">
 <header class="aetheros-site-header">
-  <a class="aetheros-brand" href="../../index.html" aria-label="SymTech Ventures home">
-    <img decoding="async" class="aetheros-brand-logo" src="../../images/logos/symtech.webp" alt="SymTech Ventures" loading="lazy">
-    <span class="aetheros-brand-text">
-      <strong>SymTech Ventures</strong>
-      <small>Exploratory deep-tech research</small>
-    </span>
-  </a>
+    <a class="aetheros-brand" href="../../index.html" aria-label="SymTech Ventures home">
+      <img decoding="async" class="aetheros-brand-logo" src="../../images/logos/symtech.webp" alt="SymTech Ventures" loading="lazy">
+      <span class="aetheros-brand-text">
+        <strong>SymTech Ventures</strong>
+        <small>Exploratory deep-tech research</small>
+      </span>
+    </a>
+    <nav class="aetheros-icon-nav" aria-label="Primary navigation">
+      <a class="aetheros-nav-link" href="../../pages/symmetria.html" aria-label="SYMMETRIA" title="SYMMETRIA"><img decoding="async" src="../../images/logos/symmetria.webp" alt="SYMMETRIA" loading="lazy"></a>
+      <a class="aetheros-nav-link" href="../../pages/nsrp.html" aria-label="NSRP" title="NSRP"><img decoding="async" src="../../images/logos/nsrp.webp" alt="NSRP" loading="lazy"></a>
+      <a class="aetheros-nav-link" href="../../pages/divisions.html" aria-label="Divisions" title="Divisions"><img decoding="async" src="../../images/logos/divisions.webp" alt="Divisions" loading="lazy"></a>
+      <a class="aetheros-nav-link" href="../../pages/founding-fellows.html" aria-label="Fellows" title="Fellows"><img decoding="async" src="../../images/logos/fellows.webp" alt="Fellows" loading="lazy"></a>
+      <a class="aetheros-nav-link" href="../../pages/contact.html" aria-label="Contact" title="Contact"><img decoding="async" src="../../images/logos/contact.webp" alt="Contact" loading="lazy"></a>
+    </nav>
+  </header>
 
-  <nav class="aetheros-icon-nav" aria-label="Primary navigation">
-    <a class="aetheros-nav-link" href="../../pages/symmetria.html" aria-label="SYMMETRIA" title="SYMMETRIA"><img decoding="async" src="../../images/logos/symmetria.webp" alt="SYMMETRIA" loading="lazy"></a>
-    <a class="aetheros-nav-link" href="../../pages/nsrp.html" aria-label="NSRP" title="NSRP"><img decoding="async" src="../../images/logos/nsrp.webp" alt="NSRP" loading="lazy"></a>
-    <a class="aetheros-nav-link" href="../../pages/divisions.html" aria-label="Divisions" title="Divisions"><img decoding="async" src="../../images/logos/divisions.webp" alt="Divisions" loading="lazy"></a>
-<a class="aetheros-nav-link" href="../../pages/founding-fellows.html" aria-label="Fellows" title="Fellows"><img decoding="async" src="../../images/logos/fellows.webp" alt="Fellows" loading="lazy"></a>
-    
-    <a class="aetheros-nav-link" href="../../pages/contact.html" aria-label="Contact" title="Contact"><img decoding="async" src="../../images/logos/contact.webp" alt="Contact" loading="lazy"></a>
-  </nav>
-</header>
-<div class="aetheros-paper-shell">
-<h1>Why Physics Still Needs a Unified Framework</h1>
+  <main>
+    <section class="page-hero symmetria-article-hero">
+      <div class="wrap">
+        <p class="eyebrow">SYMMETRIA Discussion Series</p>
+        <h1>Why Physics Still Needs a Unified Framework</h1>
+        <p class="lead">The Search for a Deeper Description of Reality</p>
+      </div>
+    </section>
+
+    <section class="article-body">
+      <div class="wrap">
+        <div class="panel paper-content">
+<h2>Why Physics Still Needs a Unified Framework</h2>
 <p class="doc-subtitle">The Search for a Deeper Description of Reality</p>
 <p class="doc-series">Part I of the SYMMETRIA Discussion Series</p>
 <p class="doc-author">Dr Geoffrey Thomas</p>
@@ -637,24 +400,41 @@ canvas#starfield{
 <p class="figure-caption">
 <strong>Figure 6.1:</strong> The future development of SYMMETRIA is expected to proceed through a series of increasingly rigorous stages, beginning with mathematical formalisation and internal consistency checks, followed by computational modelling, AI-assisted analysis, and structured investigation through the Nilpotent Symmetry Research Program (NSRP). Ultimately, the framework must be evaluated through testable predictions and experimental validation to determine its scientific viability.
 </p>
-<hr>
-<p><strong>End of Document</strong></p>
-</div>
-  <script src="../../js/main.js?v=paper_standard_reset_v7"></script>
+        </div>
+      </div>
+    </section>
+
+<!-- AETHEROS_NEXT_PAPER_TEASER_START -->
+    <section class="prelude-caution next-paper-teaser">
+      <div class="wrap">
+        <div class="notice">
+          <p class="eyebrow">Paper 2</p>
+          <h2>Symmetry — Nature's Hidden Language</h2>
+          <p>The next paper explores symmetry as one of the deepest organising principles in modern physics, asking whether it may point towards an even more fundamental structure beneath the laws we currently use.</p>
+          <div class="hero-actions">
+            <a class="button secondary" href="../../pages/symmetria-discussion-series.html">Back to SYMMETRIA Discussion Series</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AETHEROS_NEXT_PAPER_TEASER_END -->
+    <section class="prelude-caution">
+      <div class="wrap">
+        <div class="notice">
+          <h2>Exploratory status</h2>
+          <p>SYMMETRIA is an exploratory research framework and should not be read as an experimentally validated theory.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; SymTech Ventures. SYMMETRIA is an exploratory research framework, not an experimentally validated theory.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
