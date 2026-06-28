@@ -1,0 +1,189 @@
+﻿{
+    "series":  "SYMMETRIA Discussion Series",
+    "version":  "16-paper / 4-category",
+    "updated":  "2026-06-28 16:14:13",
+    "categories":  [
+                       {
+                           "Number":  1,
+                           "Name":  "Why Do We Need a New Framework?",
+                           "Description":  "The opening category explains why modern physics may still require deeper unification, beginning with symmetry, nilpotency and the mathematical character of physical law."
+                       },
+                       {
+                           "Number":  2,
+                           "Name":  "Building the SYMMETRIA Framework",
+                           "Description":  "The second category introduces the conceptual building blocks of SYMMETRIA, including emergence, layered reality, information and framework architecture."
+                       },
+                       {
+                           "Number":  3,
+                           "Name":  "Exploring Reality",
+                           "Description":  "The third category explores how SYMMETRIA might reinterpret core physical concepts such as spacetime, mass, complexity and the observer boundary."
+                       },
+                       {
+                           "Number":  4,
+                           "Name":  "From Theory to Science",
+                           "Description":  "The final category asks how SYMMETRIA could move from speculative theory toward modelling, testing, research frontiers and scientific evaluation."
+                       }
+                   ],
+    "papers":  [
+                   {
+                       "Number":  1,
+                       "Title":  "Why Physics Still Needs a Unified Framework",
+                       "Slug":  "why-physics-still-needs-a-unified-framework",
+                       "File":  "symmetria-paper-01.html",
+                       "CategoryNumber":  1,
+                       "Category":  "Why Do We Need a New Framework?",
+                       "Purpose":  "Introduces the continuing gap between the Standard Model, General Relativity and the wider search for a deeper unifying framework.",
+                       "Status":  "Published"
+                   },
+                   {
+                       "Number":  2,
+                       "Title":  "Symmetry - Nature\u0027s Hidden Language",
+                       "Slug":  "symmetry-natures-hidden-language",
+                       "File":  "symmetria-paper-02.html",
+                       "CategoryNumber":  1,
+                       "Category":  "Why Do We Need a New Framework?",
+                       "Purpose":  "Explores symmetry, conservation laws and why symmetry may point toward deeper organising principles in nature.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  3,
+                       "Title":  "The Nilpotent Foundation",
+                       "Slug":  "the-nilpotent-foundation",
+                       "File":  "symmetria-paper-03.html",
+                       "CategoryNumber":  1,
+                       "Category":  "Why Do We Need a New Framework?",
+                       "Purpose":  "Introduces nilpotent algebra and explains why zero-square structures may provide a useful foundation for exploratory unification work.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  4,
+                       "Title":  "Mathematics, Elegance and Reality",
+                       "Slug":  "mathematics-elegance-and-reality",
+                       "File":  "symmetria-paper-04.html",
+                       "CategoryNumber":  1,
+                       "Category":  "Why Do We Need a New Framework?",
+                       "Purpose":  "Explores why mathematics describes nature so effectively and why elegance alone can inspire but never validate a theory.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  5,
+                       "Title":  "Emergence and Layered Reality",
+                       "Slug":  "emergence-and-layered-reality",
+                       "File":  "symmetria-paper-05.html",
+                       "CategoryNumber":  2,
+                       "Category":  "Building the SYMMETRIA Framework",
+                       "Purpose":  "Explores emergence, hierarchy and the possibility that physical systems arise through layered relationships.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  6,
+                       "Title":  "Beyond the Four Fundamental Forces",
+                       "Slug":  "beyond-the-four-fundamental-forces",
+                       "File":  "symmetria-paper-06.html",
+                       "CategoryNumber":  2,
+                       "Category":  "Building the SYMMETRIA Framework",
+                       "Purpose":  "Considers whether deeper relationships may underlie the known interactions and their apparent separation.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  7,
+                       "Title":  "Fields, Information and Structure",
+                       "Slug":  "fields-information-and-structure",
+                       "File":  "symmetria-paper-07.html",
+                       "CategoryNumber":  2,
+                       "Category":  "Building the SYMMETRIA Framework",
+                       "Purpose":  "Investigates how field relationships, information structures and measurement boundaries may be connected within an exploratory framework.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  8,
+                       "Title":  "The Architecture of SYMMETRIA",
+                       "Slug":  "the-architecture-of-symmetria",
+                       "File":  "symmetria-paper-08.html",
+                       "CategoryNumber":  2,
+                       "Category":  "Building the SYMMETRIA Framework",
+                       "Purpose":  "Outlines the conceptual structure of SYMMETRIA and how its internal components relate to one another.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  9,
+                       "Title":  "Space, Time and Geometry",
+                       "Slug":  "space-time-and-geometry",
+                       "File":  "symmetria-paper-09.html",
+                       "CategoryNumber":  3,
+                       "Category":  "Exploring Reality",
+                       "Purpose":  "Explores spacetime, geometry and the possibility that physical structure may emerge from deeper relationships.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  10,
+                       "Title":  "Mass, Inertia and Symmetry Collapse",
+                       "Slug":  "mass-inertia-and-symmetry-collapse",
+                       "File":  "symmetria-paper-10.html",
+                       "CategoryNumber":  3,
+                       "Category":  "Exploring Reality",
+                       "Purpose":  "Examines how mass, inertia and related properties may be interpreted as outcomes of symmetry breaking and field collapse.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  11,
+                       "Title":  "Complexity, Order and Emergence",
+                       "Slug":  "complexity-order-and-emergence",
+                       "File":  "symmetria-paper-11.html",
+                       "CategoryNumber":  3,
+                       "Category":  "Exploring Reality",
+                       "Purpose":  "Considers how complex systems may arise from simpler underlying principles through order, feedback and emergence.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  12,
+                       "Title":  "The Observer Frontier",
+                       "Slug":  "the-observer-frontier",
+                       "File":  "symmetria-paper-12.html",
+                       "CategoryNumber":  3,
+                       "Category":  "Exploring Reality",
+                       "Purpose":  "Introduces the observer and measurement boundary as a frontier issue without making claims about consciousness as established physics.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  13,
+                       "Title":  "Predictions, Models and Falsifiability",
+                       "Slug":  "predictions-models-and-falsifiability",
+                       "File":  "symmetria-paper-13.html",
+                       "CategoryNumber":  4,
+                       "Category":  "From Theory to Science",
+                       "Purpose":  "Explains how an exploratory framework must move toward predictions, modelling and possible falsification.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  14,
+                       "Title":  "The Nilpotent Symmetry Research Program",
+                       "Slug":  "the-nilpotent-symmetry-research-program",
+                       "File":  "symmetria-paper-14.html",
+                       "CategoryNumber":  4,
+                       "Category":  "From Theory to Science",
+                       "Purpose":  "Introduces the NSRP and the role of modelling, critique, AI assistance and computational research in testing the framework.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  15,
+                       "Title":  "From Theory to Technology: The Five Research Frontiers of SymTech Ventures",
+                       "Slug":  "from-theory-to-technology-the-five-research-frontiers-of-symtech-ventures",
+                       "File":  "symmetria-paper-15.html",
+                       "CategoryNumber":  4,
+                       "Category":  "From Theory to Science",
+                       "Purpose":  "Explores the five SymTech Ventures divisions as long-term research frontiers inspired by SYMMETRIA if the framework proves scientifically useful.",
+                       "Status":  "Planned"
+                   },
+                   {
+                       "Number":  16,
+                       "Title":  "Towards a New Scientific Paradigm",
+                       "Slug":  "towards-a-new-scientific-paradigm",
+                       "File":  "symmetria-paper-16.html",
+                       "CategoryNumber":  4,
+                       "Category":  "From Theory to Science",
+                       "Purpose":  "Brings the series together and considers how a speculative framework could mature into a disciplined scientific research programme.",
+                       "Status":  "Planned"
+                   }
+               ]
+}
