@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.symtechventures.com/</loc>
@@ -6,62 +6,22 @@
     <priority>1.00</priority>
   </url><url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-01.html</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-02.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-03.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-04.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-05.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-06.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-07.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-08.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-09.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-10.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-11.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-12.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <priority>0.65</priority>
   </url>
   <url>
@@ -75,11 +35,6 @@
     <priority>0.80</priority>
   </url><url>
     <loc>https://www.symtechventures.com/pages/enquiry.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/pages/enquiry-thanks.html</loc>
     <lastmod>2026-06-15</lastmod>
     <priority>0.80</priority>
   </url>
@@ -118,8 +73,8 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.symtechventures.com/pages/symmetria-discussion-series.html</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://www.symtechventures.com/pages/discussion-series.html</loc>
+    <lastmod>2026-10-07</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -127,28 +82,4 @@
     <lastmod>2026-06-15</lastmod>
     <priority>0.80</priority>
   </url>
-  <url>
-    <loc>https://www.symtechventures.com/README.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-13.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-14.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.symtechventures.com/articles/symmetria/symmetria-paper-15.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 </urlset>
-
